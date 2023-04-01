@@ -61,6 +61,7 @@ class Mapp(App):
         mapview.bind(zoom=on_zoom)
         zoom = 11
 
+
         for marker in markers.Markers:
             mapview.add_marker(marker)
 
@@ -87,18 +88,13 @@ class Mapp(App):
                 radius = tmp_marker.y - marker.y
                 mapview.remove_marker(tmp_marker)
 
-                #print(marker.x, marker.y)
-                #print(mapview.center_x)
-
-                #circle = Ellipse(pos = (marker.center_x - radius/2, marker.center_y - radius/2), size = (radius, radius), color  = (0.2,0,0.5,0.4))
-                #mapview.canvas.add(circle)
-
                 with mapview.canvas:
                     Color(0,1,0,0.08)  # line color
                     circle = Ellipse(pos = (marker.center_x - radius/2, marker.center_y - radius/2), size = (radius, radius))
                     mapview.canvas.add(circle)
 
-        mapview.bind(zoom = update)
+        #mapview.bind(zoom = update)
+        mapview.bind(lon=update)
         visible_markers = True
 
         def toggle_markers_visibility(button):
