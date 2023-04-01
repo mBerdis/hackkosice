@@ -15,18 +15,18 @@ FloatLayout:
         size_hint: 1, 0.9
         pos_hint: {'y':0.1}
         zoom: 15
-        lat: 36.77418821888212
-        lon: 3.052954737671183
+        lat: 48.7145
+        lon: 21.2503
         double_tap_zoom: True
         MapMarker:
             id: marker1
-            lat: 36.77418821888212
-            lon: 3.052954737671183
+            lat: 48.7144
+            lon: 21.2506
             on_release: app.marker_released(self)
         MapMarker:
             id: marker2
-            lat:  36.77
-            lon: 3.06
+            lat:  48.7154
+            lon: 21.2506
             on_release: app.marker_released(self)
             
     Button:
@@ -48,9 +48,9 @@ class MyMapView(MapView):
         lines = Line()
 
         print(self.zoom)
-        scale = float(0.2 * float(self.zoom))
+        scale = float(1 * self.zoom)
         print(scale)
-        circles = Ellipse(pos = [self.m1.center_x, self.m1.y], size= (scale, scale))
+        circles = Ellipse(pos = [self.m1.center_x, self.m1.y], size= [scale, scale])
 
         lines.points = points
         lines.width = 2
