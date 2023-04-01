@@ -41,10 +41,8 @@ class RootWidget(AnchorLayout):
         self.anchor_x = 'right'
         self.anchor_y = 'top'
 
-        mapview = MapView(zoom=12, lat=self.lat, lon=self.lon)
+        mapview = MapView(zoom=11, lat=self.lat, lon=self.lon)
         self.add_widget(mapview)
-
-        print(mapview.zoom)
 
         canvas = CanvasWidget()
         mapview.add_widget(canvas)
