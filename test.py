@@ -51,7 +51,7 @@ class MyMapView(MapView):
         lon1 = math.radians(center_point[1])
 
         # Calculate the distance from the center point to a point 1 kilometer to the north, south, east, and west
-        d = 1  # 1 kilometer
+        d = 2  # 2x1 kilometer
         lat_north = math.asin(math.sin(lat1) * math.cos(d/R) + math.cos(lat1) * math.sin(d/R) * math.cos(0))
         lon_north = lon1 + math.atan2(math.sin(0) * math.sin(d/R) * math.cos(lat1), math.cos(d/R) - math.sin(lat1) * math.sin(lat_north))
         lat_north = math.degrees(lat_north)
@@ -63,7 +63,7 @@ class MyMapView(MapView):
         self.remove_marker(marker)
 
         lines = Ellipse(pos = (self.m1.center_x - radius/2, self.m1.center_y - radius/2), size = (radius, radius))
-        
+
         if self.grp is not None:
             # just update the group with updated lines lines
             self.grp.clear()
