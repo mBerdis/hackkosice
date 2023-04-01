@@ -94,7 +94,7 @@ class MyMapView(MapView):
         #scale = float(1 * self.zoom)
         #print(scale)
         print(radius)
-        circles = Ellipse(pos = [self.m1.center_x, self.m1.y], size= [radius, radius])
+        circles = Ellipse(pos = [self.m1.center_x - radius, self.m1.y - radius], size= [radius, radius])
 
         self.mapview.meters_to_pixels()
         radius_pixels = self.parent.mapview.meters_to_pixels(radius, self.parent.mapview.zoom)
