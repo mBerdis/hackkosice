@@ -1,3 +1,5 @@
+import math
+
 from kivy.graphics.context_instructions import Color
 from kivy.graphics.instructions import InstructionGroup
 from kivy.graphics.vertex_instructions import Line, Ellipse
@@ -44,15 +46,61 @@ class MyMapView(MapView):
 
     # draw the lines
     def draw_lines(self):
-        points = [[self.m1.center_x, self.m1.y], [self.m2.center_x, self.m2.y]]  # get the points for the lines from somewhere
-        lines = Line()
+        # Define the radius of the Earth in kilometers
+        R = 6371.01
 
-        print(self.zoom)
-        scale = float(1 * self.zoom)
-        print(scale)
-        circles = Ellipse(pos = [self.m1.center_x, self.m1.y], size= [scale, scale])
+        # Define the center point as a list of latitude and longitude coordinates in degrees
+        center_point = [self.m1.lat, self.m1.lon]
 
-        lines.points = points
+        # Convert the latitude and longitude coordinates to radians
+        lat1 = math.radians(center_point[0])
+        lon1 = math.radians(center_point[1])
+
+        # Calculate the distance from the center point to a point 1 kilometer to the north, south, east, and west
+        d = 1  # 1 kilometer
+        lat_north = math.asin(math.sin(lat1) * math.cos(d/R) + math.cos(lat1) * math.sin(d/R) * math.cos(0))
+        lon_north = lon1 + math.atan2(math.sin(0) * math.sin(d/R) * math.cos(lat1), math.cos(d/R) - math.sin(lat1) * math.sin(lat_north))
+
+        lat_south = math.asin(math.sin(lat1) * math.cos(d/R) + math.cos(lat1) * math.sin(d/R) * math.cos(math.pi))
+        lon_south = lon1 + math.atan2(math.sin(math.pi) * math.sin(d/R) * math.cos(lat1), math.cos(d/R) - math.sin(lat1) * math.sin(lat_south))
+
+        lat_east = math.asin(math.sin(lat1) * math.cos(d/R) + math.cos(lat1) * math.sin(d/R) * math.cos(math.pi/2))
+        lon_east = lon1 + math.atan2(math.sin(math.pi/2) * math.sin(d/R) * math.cos(lat1), math.cos(d/R) - math.sin(lat1) * math.sin(lat_east))
+
+        lat_west = math.asin(math.sin(lat1) * math.cos(d/R) + math.cos(lat1) * math.sin(d/R) * math.cos(3*math.pi/2))
+        lon_west = lon1 + math.atan2(math.sin(3*math.pi/2) * math.sin(d/R) * math.cos(lat1), math.cos(d/R) - math.sin(lat1) * math.sin(lat_west))
+
+        # Convert the latitude and longitude coordinates back to degrees
+        lat_north = math.degrees(lat_north)
+        lon_north = math.degrees(lon_north)
+        north = [lat_north, lon_north]
+
+        lat_south = math.degrees(lat_south)
+        lon_south = math.degrees(lon_south)
+        south = [lat_south, lon_south]
+
+        lat_east = math.degrees(lat_east)
+        lon_east = math.degrees(lon_east)
+        east = [lat_east, lon_east]
+
+        lat_west = math.degrees(lat_west)
+        lon_west = math.degrees(lon_west)
+        west = [lat_west, lon_west]
+
+        points = [north, south, east, west]  # get the points for the lines from somewhere
+
+        radius = ((lat_north - self.m1.lat) ** 2 + (lon_north - self.m1.lon) ** 2) ** 0.5
+
+        #scale = float(1 * self.zoom)
+        #print(scale)
+        print(radius)
+        circles = Ellipse(pos = [self.m1.center_x, self.m1.y], size= [radius, radius])
+
+        self.mapview.meters_to_pixels()
+        radius_pixels = self.parent.mapview.meters_to_pixels(radius, self.parent.mapview.zoom)
+
+        lines = Line(ellipse=(north, south, east, west))
+        #lines.points = points
         lines.width = 2
         if self.grp is not None:
             # just update the group with updated lines lines
