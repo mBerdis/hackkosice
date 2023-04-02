@@ -135,13 +135,7 @@ class Mapp(App):
         #layout.bind(size=lambda instance, value: setattr(layTwo, 'size', value))
         container.add_widget(mapview)
         container.add_widget(layTwo)
-        def on_touch_move(self,touch):
-            x, y = touch.pos
-            mapview.center_on(x, y)
-            layTwo.center_on(x, y)
-
-        # Bind the on_touch_move method to the FloatLayout
-        container.bind(on_touch_move=on_touch_move)
+        
         
         
         return container
