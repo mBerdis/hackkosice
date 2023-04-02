@@ -34,7 +34,22 @@ class Markers(MapMarker):
             for marker in data:
                 map_marker = MapMarkerPopup(lat=marker[19], lon=marker[20], popup_size=(100, 50))
                 map_marker.add_widget(Label(text=marker[2], color=(1,0,1,1)))
-                markers.append(map_marker)
+                
+                
+                # Define the radius of the Earth in kilometers
+                R = 6371.01
+
+                # Convert the latitude and longitude coordinates to radians
+                lat1 = math.radians(map_marker.lat)
+                lon1 = math.radians(map_marker.lon)
+
+                # Calculate the distance from the center point to a point 1 kilometer to the north, south, east, and west
+                d = 2  # 2x0.5 kilometer
+                lat_north = math.degrees(math.asin(math.sin(lat1) * math.cos(d/R) + math.cos(lat1) * math.sin(d/R) * math.cos(0)))
+                lon_north = math.degrees(lon1 + math.atan2(math.sin(0) * math.sin(d/R) * math.cos(lat1), math.cos(d/R) - math.sin(lat1) * math.sin(lat_north)))
+
+                north_point = [lat_north, lon_north]
+                markers.append([map_marker, north_point])
 
             return markers
 
@@ -59,38 +74,24 @@ class Mapp(App):
                 mapview.zoom = min_zoom
            
         mapview.bind(zoom=on_zoom)
-        zoom = 11
-
 
         for marker in markers.Markers:
-            mapview.add_marker(marker)
+            mapview.add_marker(marker[0])
 
         def update(mapview, zoom):
             for child in mapview.canvas.children:
                 if type(child) is Ellipse:
                     mapview.canvas.remove(child)
 
-            # Define the radius of the Earth in kilometers
-            R = 6371.01
-
             for marker in markers.Markers:
-                # Convert the latitude and longitude coordinates to radians
-                lat1 = math.radians(marker.lat)
-                lon1 = math.radians(marker.lon)
-
-                # Calculate the distance from the center point to a point 1 kilometer to the north, south, east, and west
-                d = 2  # 2x0.5 kilometer
-                lat_north = math.degrees(math.asin(math.sin(lat1) * math.cos(d/R) + math.cos(lat1) * math.sin(d/R) * math.cos(0)))
-                lon_north = math.degrees(lon1 + math.atan2(math.sin(0) * math.sin(d/R) * math.cos(lat1), math.cos(d/R) - math.sin(lat1) * math.sin(lat_north)))
-
-                tmp_marker = MapMarker(lat = lat_north, lon = lon_north)
+                tmp_marker = MapMarker(lat = marker[1][0], lon = marker[1][1])
                 mapview.add_marker(tmp_marker)
-                radius = tmp_marker.y - marker.y
+                radius = tmp_marker.y - marker[0].y
                 mapview.remove_marker(tmp_marker)
 
                 with mapview.canvas:
                     Color(0,1,0,0.08)  # line color
-                    circle = Ellipse(pos = (marker.center_x - radius/2, marker.center_y - radius/2), size = (radius, radius))
+                    circle = Ellipse(pos = (marker[0].center_x - radius/2, marker[0].center_y - radius/2), size = (radius, radius))
                     mapview.canvas.add(circle)
 
         #mapview.bind(zoom = update)
