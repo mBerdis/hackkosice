@@ -21,11 +21,10 @@ class SchoolMarker(MapMarkerPopup):
 
 class Markers(MapMarker):
 
-    def __init__(self, **kwargs):
+    def __init__(self, filename, lat_index, lon_index, type_filter, label):
 
         def loadMarkers():
-            file_path = "stredne_skoly.csv"
-            with open(file_path, newline='', encoding='utf-8') as csvfile:
+            with open(filename, newline='', encoding='utf-8') as csvfile:
                 csvreader = csv.reader(csvfile)
                 headers = next(csvreader)
                 data = list(csvreader)
@@ -33,9 +32,15 @@ class Markers(MapMarker):
             markers = list()
 
             for marker in data:
-                map_marker = MapMarkerPopup(lat=marker[19], lon=marker[20], popup_size=(100, 50))
-                map_marker.add_widget(Label(text="Skola: " + marker[2], color=(1,0,1,1)))
-                
+                if filename == "POIs.csv":
+                    if marker[2] == type_filter:
+                        map_marker = MapMarkerPopup(lat=marker[lat_index], lon=marker[lon_index], popup_size=(100, 50))
+                        map_marker.add_widget(Label(text= label + ": " + marker[2], color=(1,0,1,1)))
+                    else:
+                        continue
+                else:
+                    map_marker = MapMarkerPopup(lat=marker[lat_index], lon=marker[lon_index], popup_size=(100, 50))
+                    map_marker.add_widget(Label(text= label + ": " + marker[2], color=(1,0,1,1)))
                 
                 # Define the radius of the Earth in kilometers
                 R = 6371.01
@@ -54,16 +59,13 @@ class Markers(MapMarker):
 
             return markers
 
-        
-        super().__init__(**kwargs)
+        super().__init__()
         self.Markers = loadMarkers()
 
 class Mapp(App):
     def build(self):
         layout = BoxLayout(orientation='vertical')
         mapview = MapView(zoom=11, lat=48.7145, lon=21.2503)
-
-        markers = Markers()
 
         max_zoom = 20
         min_zoom = 11
@@ -77,6 +79,8 @@ class Mapp(App):
                 mapview.zoom = min_zoom
            
         mapview.bind(zoom=on_zoom)
+
+        markers = Markers("stredne_skoly.csv", 19, 20, "", "Skola")
 
         for marker in markers.Markers:
             mapview.add_marker(marker[0])
@@ -100,7 +104,6 @@ class Mapp(App):
                     circle = Ellipse(pos = (marker[0].center_x - radius/2, marker[0].center_y - radius/2), size = (radius, radius))
                     mapview.canvas.add(circle)
 
-        #mapview.bind(zoom = update)
         mapview.bind(lon=update)
         visible_markers = True
 
@@ -121,6 +124,21 @@ class Mapp(App):
                     mapview.add_marker(marker[0])
 
         cbox_skoly.bind(active=on_checkbox_skoly_active)
+
+        # BANKY
+
+        cbox_banky = CheckBox(active=False)
+        labelBank = Label(text="Banky")
+
+        def on_checkbox_banky_active(checkbox, value):
+            if value is False:
+                self.mapview = MapView(zoom=11, lat=48.7145, lon=21.2503)
+            else:
+                markers = Markers("POIs.csv", 4, 5, "Všeobecná ambulancia pre deti a dorast", "Všeob. ambulancia")
+                for marker in markers.Markers:
+                    mapview.add_marker(marker[0])
+
+        cbox_banky.bind(active=on_checkbox_banky_active)
 
         ###
 
@@ -160,6 +178,8 @@ class Mapp(App):
         box.add_widget(labelm)
         box.add_widget(cbox_skoly)
         box.add_widget(labels)
+        box.add_widget(cbox_banky)
+        box.add_widget(labelBank)
         layout.add_widget(box)
         layout.add_widget(mapview)
 

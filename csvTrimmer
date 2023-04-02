@@ -1,0 +1,17 @@
+import csv
+
+# Increase the field size limit
+csv.field_size_limit(2147483647)
+
+
+with open('POIs.csv', 'r', encoding='utf-8') as input_file:
+
+    reader = csv.reader(input_file)
+
+    with open('output.csv', 'w', newline='', encoding='utf-8') as output_file:
+
+        writer = csv.writer(output_file)
+
+        for row in reader:
+
+            writer.writerow(row[:6])
