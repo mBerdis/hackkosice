@@ -33,9 +33,9 @@ class Markers(MapMarker):
 
             for marker in data:
                 if filename == "POIs.csv":
-                    if marker[2] == type_filter:
-                        map_marker = MapMarkerPopup(lat=marker[lat_index], lon=marker[lon_index], popup_size=(100, 50))
-                        map_marker.add_widget(Label(text= label + ": " + marker[2], color=(1,0,1,1)))
+                    if marker[3] == type_filter:
+                        map_marker = MapMarkerPopup(lat=marker[lon_index], lon=marker[lat_index], popup_size=(100, 50))
+                        map_marker.add_widget(Label(text= label + ": " + marker[1], color=(1,0,1,1)))
                     else:
                         continue
                 else:
@@ -102,7 +102,16 @@ class Mapp(App):
                 with mapview.canvas:
                     Color(0,1,0,0.08)  # line color
                     circle = Ellipse(pos = (marker[0].center_x - radius/2, marker[0].center_y - radius/2), size = (radius, radius))
-                    mapview.canvas.add(circle)
+                    west, south, east, north=mapview.get_bbox()
+                    west, south = mapview.get_window_xy_from(west, south, mapview.zoom)
+                    east, north = mapview.get_window_xy_from(east, north, mapview.zoom)
+
+                    if (west < marker[0].center_x - radius/2 and marker[0].center_x- radius/2 < east and south < marker[0].center_y- radius/2 and  marker[0].center_y- radius/2 < north and west < marker[0].center_x + radius/2 and marker[0].center_x+ radius/2 < east and south < marker[0].center_y+ radius/2 and  marker[0].center_y+ radius/2 < north):
+                        mapview.canvas.add(circle)
+                        #print(str(west) +" < "+ str(marker[0].center_x + radius/2) +" and "+ str(marker[0].center_x- radius/2) +" < "+ str(east) +" and "+ str(south) +" < "+ str(marker[0].center_y- radius/2) +" and "+  str(marker[0].center_y+ radius/2) +" < "+ str(north))
+
+                    else:
+                        mapview.canvas.remove(circle)
 
         mapview.bind(lon=update)
         visible_markers = True
@@ -134,7 +143,7 @@ class Mapp(App):
             if value is False:
                 self.mapview = MapView(zoom=11, lat=48.7145, lon=21.2503)
             else:
-                markers = Markers("POIs.csv", 4, 5, "Všeobecná ambulancia pre deti a dorast", "Všeob. ambulancia")
+                markers = Markers("POIs.csv", 4, 5, "cafe", "Kafe")
                 for marker in markers.Markers:
                     mapview.add_marker(marker[0])
 
