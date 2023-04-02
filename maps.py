@@ -150,8 +150,6 @@ class Mapp(App):
         def on_checkbox_banky_active(checkbox, value):
             if value is False:
                 self.show_schools = False
-                for marker in markers.Markers:
-                    mapview.remove_marker(marker[0])
                 for obj in objects:
                     mapview.canvas.remove(obj)
                 for child in mapview.canvas.children:
