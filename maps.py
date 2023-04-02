@@ -108,8 +108,7 @@ class Mapp(App):
                     
                     if (west < marker[0].center_x - radius/2 and marker[0].center_x- radius/2 < east and south < marker[0].center_y- radius/2 and  marker[0].center_y- radius/2 < north and west < marker[0].center_x + radius/2 and marker[0].center_x+ radius/2 < east and south < marker[0].center_y+ radius/2 and  marker[0].center_y+ radius/2 < north):
                         mapview.canvas.add(circle)
-                        #print(str(west) +" < "+ str(marker[0].center_x + radius/2) +" and "+ str(marker[0].center_x- radius/2) +" < "+ str(east) +" and "+ str(south) +" < "+ str(marker[0].center_y- radius/2) +" and "+  str(marker[0].center_y+ radius/2) +" < "+ str(north))
-                        #daco
+                        #print(str(west) +" < "+ str(marker[0].center_x + radius/2) +" and "+ str(marker[0].center_x- radius/2) +" < "+ str(east) +" and "+ str(south) +" < "+ str(marker[0].center_y- radius/2) +" and "+  str(marker[0].center_y+ radius/2) +" < "+ str(north))                
                     else:
                         mapview.canvas.remove(circle)
 
