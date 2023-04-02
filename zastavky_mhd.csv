@@ -1,0 +1,790 @@
+﻿ObjectId,pasport,sl_,elektricka,trolejbus,autobus,mestska_cast,zastavka_nazov,zastavka_smer,x,y
+1,1,1,False,False,True,Košice - Sever,Alpinka,smer Jahodná kopec,21.1882991790771,48.7584495544433
+2,1,2,False,False,True,Košice - Sever,Alpinka,smer Čermeľ,21.1882991790771,48.75830078125
+3,1,3,False,False,True,Košice - Sever,Alpinka,konečná,21.188039779663,48.7585411071777
+4,1,4,False,False,False,Košice - Sever,Alpinka,smer Vpred,21.1852703094482,48.7590293884277
+5,1,5,False,False,False,Košice - Sever,Alpinka,konečná,21.1836204528808,48.7595100402832
+6,2,1,False,False,True,Košice - Staré Mesto,Alvinczyho,smer Svornosti,21.2609500885009,48.7307815551757
+7,2,2,False,False,True,Košice - Staré Mesto,Alvinczyho,smer Nám. Mar.mieru,21.2609500885009,48.7305488586425
+8,3,1,False,False,True,Košice - Staré Mesto,Amfiteáter,smer Nová nemocnica,21.2403507232666,48.7273216247558
+9,3,2,False,False,True,Košice - Staré Mesto,Amfiteáter,smer Techn. univerzita,21.2422695159912,48.7280197143554
+10,3,3,False,False,True,Košice - Sever,Amfiteáter,smer Sládkovičova,21.2397594451904,48.7282409667968
+11,3,4,False,False,True,Košice - Staré Mesto,Amfiteáter,smer Radnica Starého mesta (priamo),21.2424602508544,48.7274093627929
+12,3,5,True,False,True,Košice - Staré Mesto,Amfiteáter,smer Nová nemocnica,21.2412204742431,48.7278289794921
+13,3,6,True,False,True,Košice - Staré Mesto,Amfiteáter,smer Radnica Starého mesta,21.2416706085205,48.7274208068847
+14,3,7,False,False,True,Košice - Staré Mesto,Amfiteáter,parkovisko,21.241708,48.727657
+15,4,1,False,False,True,Košice - Sever,Anička,smer Chrastie,21.2490997314453,48.7506217956542
+16,4,2,False,False,True,Košice - Sever,Anička,smer Májová,21.2488594055175,48.7519302368164
+17,5,1,True,False,True,Košice - Juh,Astória,smer Nám. osloboditeľov,21.260929107666,48.7126312255859
+18,5,2,True,False,True,Košice - Juh,Astória,smer Stará nemocnica,21.2608890533447,48.7123908996582
+19,5,3,False,False,True,Košice - Juh,Astória,smer Slovenská televízia (len pre ŠpTP),21.2593803405761,48.711311340332
+20,5,4,False,False,True,Košice - Juh,Astória,smer od Slov. televízia (len pre ŠpTP),21.2595901489257,48.7112808227539
+21,6,1,False,False,True,Košice - Sever,Atletická,smer Mengusovská,21.2437801361083,48.744400024414
+22,6,2,False,False,True,Košice - Sever,Atletická,smer Vodárenská,21.2438602447509,48.7442207336425
+23,7,1,False,False,True,Košice - Juh,Autocamping,smer Verejný cintorín ,21.2603702545166,48.6889610290527
+24,7,2,False,False,True,Košice - Juh,Autocamping,smer VSS križovatka,21.2602806091308,48.6895790100097
+25,7,3,True,False,False,Košice - Juh,Autocamping,smer Rozvojová,21.261360168457,48.6885108947753
+26,7,4,True,False,False,Košice - Juh,Autocamping,smer VSS križovatka,21.2620296478271,48.6884498596191
+27,7,5,False,False,True,Košice - Juh,Autocamping,smer Rozvojová(výluková),21.2603702545166,48.6889610290527
+28,7,6,False,False,True,Košice - Juh,Autocamping,smer VSS(výluková),21.2600593566894,48.6878509521484
+29,7,7,False,False,True,Košice - Juh,Autocamping,smer VSS(výluková-Rastislavova),21.260331,48.689174
+30,7,8,False,False,True,Košice - Juh,Autocamping,smer Verejný cin(výluková-Rastislavova)),21.260307,48.688886
+31,7,9,False,False,True,Košice - Barca,Autocamping,"smer VSS,kr.(výluková-Barčianska)",21.259408,48.688268
+32,8,1,False,False,True,Košice - Sever,Baňa Bankov,smer Krupinská,21.2277107238769,48.7328186035156
+33,8,2,False,False,True,Košice - Sever,Baňa Bankov,konečná,21.2279300689697,48.7325706481933
+34,9,1,False,False,True,Košice - Sídlisko Ťahanovce,Belehradská,smer Hanojská,21.2737693786621,48.7569694519042
+35,9,2,False,False,True,Košice - Sídlisko Ťahanovce,Belehradská,smer Sofijská,21.2738094329833,48.7566986083984
+36,10,1,False,False,True,Košice - Sídlisko Ťahanovce,Berlínska,smer Hanojská,21.2686290740966,48.7589302062988
+37,10,2,False,False,True,Košice - Sídlisko Ťahanovce,Berlínska,smer Bruselská,21.2684803009033,48.7584114074707
+38,11,1,False,False,True,Košice - Sever,Botanická záhrada,smer Obchodná akadémia,21.2391300201416,48.7342109680175
+39,11,2,False,False,True,Košice - Sever,Botanická záhrada,smer Krajský úrad,21.2416095733642,48.7350311279296
+40,11,3,False,False,True,Košice - Sever,Botanická záhrada,smer Technická univerzita,21.2405204772949,48.7341690063476
+41,11,4,True,False,False,Košice - Sever,Botanická záhrada,smer Technická univerzita,21.2407608032226,48.7345008850097
+42,11,5,True,False,False,Košice - Sever,Botanická záhrada,konečná,21.2407207489013,48.7342796325683
+43,12,1,False,False,True,Košice - Vyšné Opátske,Bytový podnik,smer Viničná,21.2795906066894,48.7067184448242
+44,12,2,False,False,True,Košice - Vyšné Opátske,Bytový podnik,smer Králičia,21.2795104980468,48.7053794860839
+45,13,1,False,False,True,Košice - Kavečany,"Kavečany, cintorín","smer Kavečany , MiÚ",21.2071495056152,48.773998260498
+46,13,2,False,False,True,Košice - Kavečany,"Kavečany, cintorín",smer Budanová,21.207139968872,48.7738304138183
+47,14,1,False,False,True,Košice - Košická Nová Ves,"Košická Nová Ves, cintorín",smer Lingov,21.3036499023437,48.7270011901855
+48,15,1,False,False,True,Košice - Juh,Verejný cintorín,smer Poľská,21.2620792388916,48.6952400207519
+49,15,2,False,False,True,Košice - Juh,Verejný cintorín,smer VSS most,21.2620391845703,48.6947784423828
+50,15,3,True,False,True,Košice - Juh,Verejný cintorín,smer Holubyho,21.2644996643066,48.6955604553222
+51,15,4,True,False,True,Košice - Juh,Verejný cintorín,smer Južná trieda 125,21.2646007537841,48.6951217651367
+52,15,5,False,False,True,Košice - Juh,Verejný cintorín,smer Autocamping(Cintorínska),21.262051,48.694248
+53,16,1,False,False,True,Košice - Poľov,Kovaľská,smer Poľovská,21.1968994140625,48.6628913879394
+54,16,2,False,False,True,Košice - Poľov,Kovaľská,"smer Poľov, rázcestie",21.1973209381103,48.6625709533691
+55,17,1,False,True,True,Košice - Juh,Bosákova,smer Priemyselná,21.2742195129394,48.7212982177734
+56,17,2,False,False,True,Košice - Juh,Bosákova,smer Gymnázium Opatovská,21.2745304107666,48.7205581665039
+57,17,3,False,False,True,Košice - Staré Mesto,Bosákova,smer Palackého,21.2731208801269,48.720718383789
+58,18,1,False,False,True,Košice - Šaca,Cent. prekl. rúd USS,smer Stavadlo 2 USS,21.209150314331,48.6080818176269
+59,18,2,False,False,True,Košice - Šaca,Cent. prekl. rúd USS,smer PHV USS,21.2088394165039,48.6079902648925
+60,19,1,False,False,True,Košice - Západ,CVČ Domino,smer Trebišovská,21.2303791046142,48.7048797607421
+61,20,1,False,False,True,Košice - Sever,Cyklistická,smer mesto,21.2419490814208,48.7469215393066
+62,20,2,False,False,True,Košice - Sever,Cyklistická,smer Polianska,21.2419490814208,48.7469215393066
+63,21,1,False,False,True,Košice - Sever,Čermeľ,smer od Suchodolinskej,21.2314395904541,48.7495803833007
+64,21,2,False,False,True,Košice - Sever,Čermeľ,smer Suchodolinská,21.23118019104,48.749210357666
+65,21,3,False,False,False,Košice - Sever,Čermeľ,smer Vpred,21.2295303344726,48.7493095397949
+66,21,4,False,False,False,Košice - Sever,Čermeľ,konečná,21.2289295196533,48.74951171875
+67,21,5,False,False,True,Košice - Sever,Čermeľ,smer Suchodolinská(dočasná),21.230749130249,48.7494888305664
+68,22,1,False,False,True,Košice - Džungľa,Džungľa,smer Plťová,21.2696800231933,48.7358894348144
+69,22,2,False,False,True,Košice - Staré Mesto,Džungľa,konečná,21.269510269165,48.7353515625
+70,23,1,False,False,True,Košice - Košická Nová Ves,Mliečna,smer Ul. Sv. Ladislava,21.3014507293701,48.7308197021484
+71,24,1,False,True,True,Košice - Západ,Diamantová,smer Hodonínska,21.222240447998,48.7128791809082
+72,24,2,False,True,True,Košice - Západ,Diamantová,smer od Hodonínskej,21.2217693328857,48.713020324707
+73,25,1,False,False,True,Košice - Nad jazerom,Dneperská,smer Levočská,21.2842006683349,48.6867904663085
+74,25,2,False,False,True,Košice - Nad jazerom,Dneperská,smer od Levočskej,21.284439086914,48.686408996582
+75,25,4,True,False,False,Košice - Nad jazerom,Dneperská,smer Levočská,21.2845497131347,48.6867294311523
+76,25,5,True,False,False,Košice - Nad jazerom,Dneperská,smer Ladožská,21.2845001220703,48.6866912841796
+77,26,1,False,False,True,Košice - Sever,Dolný Bankov,smer Čermeľ,21.2077293395996,48.7473716735839
+78,26,2,False,False,True,Košice - Sever,Dolný Bankov,smer Horný Bankov,21.2075901031494,48.7474212646484
+79,27,1,True,False,False,Košice - Staré Mesto,Dom umenia,smer Nám. osloboditeľov,21.2545890808105,48.716438293457
+80,27,2,False,False,True,Košice - Staré Mesto,Dom umenia,"smer Alžbetina, Rek.UPJŠ",21.2533206939697,48.7172508239746
+81,27,3,True,False,False,Košice - Staré Mesto,Dom umenia,smer od Nám. osloboditeľov,21.2548503875732,48.7163581848144
+82,27,4,False,True,True,Košice - Juh,Dom umenia,smer Nám. osloboditeľov,21.2550601959228,48.7161483764648
+83,27,5,False,False,True,Košice - Juh,Dom umenia,smer Slovenská televízia,21.2536602020263,48.7157516479492
+84,27,6,False,False,True,Košice - Staré Mesto,Dom umenia,smer Krajský súd(Timonova ul.),21.2533206939697,48.7172508239746
+85,28,1,False,False,True,Košice - Vyšné Opátske,Školy pre telesne postihnutých,smer V úvoze,21.2820205688476,48.7057609558105
+86,28,2,False,False,True,Košice - Vyšné Opátske,Školy pre telesne postihnutých,smer BPMK,21.281509399414,48.7060012817382
+87,29,1,False,False,True,Košice - Západ,DP mesta Košice,smer od Stodolovej,21.2364997863769,48.7041091918945
+88,29,2,False,False,True,Košice - Západ,DP mesta Košice,smer Stodolova,21.2365608215332,48.704418182373
+89,29,3,True,False,False,Košice - Západ,DP mesta Košice,smer Spoloč. pavilón,21.237060546875,48.7148208618164
+90,29,4,True,False,False,Košice - Západ,DP mesta Košice,konečná,21.2374305725097,48.7052307128906
+91,30,1,False,False,True,Košice - Sídlisko KVP,Drabova,smer od Kremnickej,21.2182292938232,48.7098503112792
+92,30,2,False,False,True,Košice - Sídlisko KVP,Drabova,smer Kremnická,21.217960357666,48.7098388671875
+93,31,1,False,False,True,Košice - Sever,Ďumbierska,smer Podhradová,21.2452907562255,48.7514610290527
+94,32,1,False,False,True,Košice - Dargovských hrdinov,Exnárova,smer Polilinika Východ,21.2841300964355,48.7412681579589
+95,32,2,False,False,True,Košice - Dargovských hrdinov,Exnárova,konečná,21.2839107513427,48.7400512695312
+96,33,1,False,False,True,Košice - Šaca,EZ Elektrosystémy,smer CPR,21.2124900817871,48.6343688964843
+97,34,1,False,True,True,Košice - Dargovských hrdinov,Fábryho,smer Kalinovská,21.2805194854736,48.7423706054687
+98,34,2,False,True,True,Košice - Dargovských hrdinov,Fábryho,smer Poliklinika Východ,21.2803401947021,48.742088317871
+99,35,1,False,False,True,Košice - Krásna,Golianova,smer Pri Hornáde,21.3034896850585,48.672119140625
+100,35,2,False,False,True,Košice - Nad jazerom,Golianova,smer Važecká,21.3033008575439,48.6724395751953
+101,36,1,False,True,True,Košice - Myslava,Grunt,smer Myslava - Pri škole,21.2038898468017,48.7104187011718
+102,36,2,False,True,True,Košice - Myslava,Grunt,smer Myslava - kostol,21.2040500640869,48.7101097106933
+103,36,3,False,True,True,Košice - Myslava,Grunt,smer Moskovská,21.2055206298828,48.7096099853515
+104,36,4,False,True,True,Košice - Myslava,Grunt,konečná,21.2045402526855,48.7094192504882
+105,37,1,False,False,True,Košice - Vyšné Opátske,Gymnázium Opatovská,smer Ovsená,21.2779693603515,48.7169113159179
+106,37,2,False,False,True,Košice - Vyšné Opátske,Gymnázium Opatovská,smer Viničná,21.2777309417724,48.7165184020996
+107,38,1,False,False,True,Košice - Pereš,Haburská,smer Pereš,21.2075500488281,48.6916885375976
+108,38,2,False,False,True,Košice - Pereš,Haburská,smer Revúcka,21.2074108123779,48.6917304992675
+109,39,1,False,False,True,Košice - Juh,Hala Cassosport,smer Blšák,21.2476692199707,48.6972694396972
+110,39,2,False,False,True,Košice - Juh,Hala Cassosport,konečná,21.2474193572998,48.6971282958984
+111,39,3,False,False,True,Košice - Juh,Hala Cassosport,smer OC Cassovia,21.2474193572998,48.6971282958984
+112,39,4,False,False,True,Košice - Juh,Hala Cassosport,smer OC Cassovia(od OC Optima),21.2475109100341,48.6969490051269
+113,40,1,False,False,True,Košice - Sídlisko Ťahanovce,Hanojská,smer od Belehradskej,21.2702293395996,48.7611389160156
+114,40,2,False,False,True,Košice - Sídlisko Ťahanovce,Hanojská,smer Belehradská,21.2703304290771,48.7606201171875
+115,41,1,False,False,True,Košice - Barca,Hečkova,"smer od Barca, kostoly",21.2660408020019,48.674388885498
+116,41,2,False,False,True,Košice - Barca,Hečkova,"smer Barca, kostoly",21.2681007385253,48.6745414733886
+117,41,3,False,False,True,Košice - Barca,Hečkova,smer od Barca - SJP II,21.2699108123779,48.6751403808593
+118,41,4,False,False,True,Košice - Barca,Hečkova,smer Barca - SJP II,21.2698307037353,48.6744003295898
+119,42,1,False,False,True,Košice - Staré Mesto,Hlavná pošta,smer Slov. rozhlas,21.2497196197509,48.7219810485839
+120,42,2,False,False,True,Košice - Staré Mesto,Hlavná pošta,"smer Považská, Nová nemocnica",21.2483406066894,48.7218284606933
+121,42,4,True,False,True,Košice - Staré Mesto,Hlavná pošta,smer Radnica Starého mesta,21.2492904663085,48.7216606140136
+122,42,5,True,False,True,Košice - Staré Mesto,Hlavná pošta,smer Krajský súd,21.2493705749511,48.7214012145996
+123,43,3,False,True,True,Košice - Sídlisko Ťahanovce,"Tesco, Džungľa",smer Pri hati,21.2640705108642,48.7425308227539
+124,43,4,False,True,True,Košice - Džungľa,"Tesco, Džungľa",smer od Hati,21.2640495300292,48.7423782348632
+125,44,1,False,True,True,Košice - Džungľa,Trolejbusová,"smer Džungľa,Tesco",21.2657604217529,48.7404594421386
+126,44,2,False,True,True,Košice - Džungľa,Trolejbusová,konečná,21.2686901092529,48.7391891479492
+127,45,1,False,False,True,Košice - Západ,Hodonínska,smer Hronská,21.2267398834228,48.7140083312988
+128,45,2,False,False,True,Košice - Západ,Hodonínska,smer Žilinská,21.2268295288085,48.712890625
+129,45,3,False,True,True,Košice - Západ,Hodonínska,smer Magistrát mesta Košice,21.2277507781982,48.7132110595703
+130,45,4,False,True,True,Košice - Západ,Hodonínska,smer Diamantová,21.2256507873535,48.7136001586914
+131,46,1,False,False,True,Košice - Sever,Horný Bankov,smer Dolný Bankov,21.2107791900634,48.7448806762695
+132,46,2,False,False,True,Košice - Sever,Horný Bankov,konečná,21.2105693817138,48.7445106506347
+133,47,1,False,False,True,Košice - Juh,Ryba,smer Malá stanica,21.2637901306152,48.7048187255859
+134,47,2,False,False,True,Košice - Juh,Ryba,smer VSS križovatka,21.2620391845703,48.7040100097656
+135,47,3,False,False,True,Košice - Juh,Ryba,smer Železníky,21.2620506286621,48.7039718627929
+136,47,4,False,False,True,Košice - Juh,Ryba,smer Nám. osloboditeľov (výluková),21.2637901306152,48.7041893005371
+137,47,5,True,False,False,Košice - Juh,Ryba,smer Holubyho,21.2623691558837,48.7038688659667
+138,47,6,True,False,False,Košice - Juh,Ryba,smer Stará nemocnica,21.2619800567626,48.7050704956054
+139,48,1,False,False,True,Košice - Západ,Hronská,smer Sokolovská,21.2263393402099,48.7187805175781
+140,48,2,False,False,True,Košice - Západ,Hronská,smer Hodonínska,21.2261505126953,48.717918395996
+141,49,1,False,True,True,Košice - Sídlisko KVP,Húskova,smer Sídl. KVP - kláštor,21.2096004486083,48.7195396423339
+142,49,2,False,True,True,Košice - Sídlisko KVP,Húskova,smer Sídl. KVP - MiÚ,21.2107601165771,48.7193183898925
+143,50,1,False,False,True,Košice - Nad jazerom,Napájadlá,smer Dneperská,21.2851905822753,48.682559967041
+144,50,2,False,False,True,Košice - Nad jazerom,Napájadlá,smer Mlyn,21.2849807739257,48.6825981140136
+145,51,1,False,False,True,Košice - Sever,Chrastie,smer Ž. zast. Ťahanovce,21.2476692199707,48.7543792724609
+146,51,2,False,False,True,Košice - Sever,Chrastie,smer Anička,21.2474708557128,48.7544784545898
+147,52,3,False,True,True,Košice - Sídlisko KVP,Moskovská,"smer Grunt,Klimkovičova",21.2117099761962,48.7116203308105
+148,52,4,False,True,True,Košice - Sídlisko KVP,Moskovská,"smer Cottbuská,Poliklinika KVP",21.2129745483398,48.7114944458007
+149,52,5,False,True,True,Košice - Sídlisko KVP,Moskovská,konečná,21.2118492126464,48.7116203308105
+150,53,1,False,False,True,Košice - Sever,"Jahodná, chata",smer Jahodná - kopec,21.1338806152343,48.7685012817382
+151,53,2,False,False,True,Košice - Sever,"Jahodná, chata",konečná,21.1340904235839,48.7683792114257
+152,54,1,False,False,True,Košice - Sever,"Jahodná, kopec",smer Jahodná - chata,21.1412200927734,48.78071975708
+153,54,2,False,False,True,Košice - Sever,"Jahodná, kopec",smer Alpinka,21.1413993835449,48.7808189392089
+154,55,1,False,True,True,Košice - Staré Mesto,Jakabov palác,smer Vodná,21.2635898590087,48.7218513488769
+155,55,2,False,True,True,Košice - Staré Mesto,Jakabov palác,smer Nám. osloboditeľov,21.2634201049804,48.7207794189453
+156,56,1,False,False,True,Košice - Sídlisko KVP,Janigova,smer Sídl. KVP - kláštor,21.2061805725097,48.7165298461914
+157,56,2,False,False,True,Košice - Sídlisko KVP,Janigova,smer Klimkovičova,21.206090927124,48.7160682678222
+158,57,1,False,True,True,Košice - Dargovských hrdinov,Kalinovská,smer Fábryho,21.2765502929687,48.7435417175292
+159,57,2,False,True,True,Košice - Dargovských hrdinov,Kalinovská,smer od Fábryho,21.2775192260742,48.7436599731445
+160,58,1,False,False,True,Košice - Západ,Kino Družba,smer Magistrát mesta Košice,21.2338905334472,48.7173194885253
+161,58,2,True,False,False,Košice - Západ,Kino Družba,smer Magistrát mesta Košice,21.2337608337402,48.7183990478515
+162,58,3,True,False,False,Košice - Západ,Kino Družba,smer Nová nemocnica,21.2338790893554,48.7181205749511
+163,58,4,False,False,True,Košice - Západ,Kino Družba,smer Nová nemocnica (výluková),21.2339401245117,48.7084808349609
+164,59,1,False,False,True,Košice - Sídlisko KVP,"KVP, kláštor",smer Janigova,21.2069797515869,48.7187614440917
+165,59,2,False,True,True,Košice - Sídlisko KVP,"KVP, kláštor",smer Húskova,21.2078800201416,48.7196006774902
+166,59,3,False,True,True,Košice - Sídlisko KVP,"KVP, kláštor",konečná,21.2070293426513,48.7197303771972
+167,59,4,False,True,True,Košice - Sídlisko KVP,"KVP, kláštor otočka",,21.2060108184814,48.7199745178222
+168,60,1,False,False,True,Košice - Sídlisko KVP,Klimkovičova,smer Janigova,21.2079200744628,48.7126502990722
+169,60,2,False,False,True,Košice - Sídlisko KVP,Klimkovičova,smer Moskovská,21.2080993652343,48.7124404907226
+170,61,1,False,False,True,Košice - Myslava,Kolibár,smer Myslavská 87,21.2187900543212,48.7019004821777
+171,61,2,False,False,True,Košice - Myslava,Kolibár,smer od Myslavskej 87,21.2171592712402,48.7027587890625
+172,63,1,False,False,True,Košice - Kavečany,Kavečany,"smer Kavečany, cintorín",21.2056694030761,48.776138305664
+173,63,2,False,False,True,Košice - Kavečany,Kavečany,konečná,21.2056694030761,48.776138305664
+174,64,1,False,False,True,Košice - Ťahanovce,Ťahanovská,smer Želiarska,21.2556591033935,48.7576103210449
+175,64,2,False,False,True,Košice - Ťahanovce,Ťahanovská,smer Madridská,21.2557201385498,48.7575798034667
+176,65,1,False,False,True,Košice - Sídlisko Ťahanovce,Budapeštianska,smer Bruselská,21.2689990997314,48.7525291442871
+177,65,2,False,False,True,Košice - Sídlisko Ťahanovce,Budapeštianska,smer od Bruselskej,21.2686004638671,48.7523612976074
+178,66,1,False,False,True,Košice - Myslava,"Myslava, kostol",smer Grunt,21.207649230957,48.707218170166
+179,66,2,False,False,True,Košice - Myslava,"Myslava, kostol",smer Myslavská 87,21.2082004547119,48.7068290710449
+180,67,1,False,False,True,Košice - Vyšné Opátske,Vyšné Opátske,smer V úvoze,21.2840194702148,48.6999282836914
+181,67,2,False,False,True,Košice - Vyšné Opátske,Vyšné Opátske,konečná,21.2838706970214,48.7001419067382
+182,68,1,False,False,True,Košice - Nad jazerom,Ladožská,smer Dneperská,21.2898902893066,48.6828384399414
+183,68,2,False,False,True,Košice - Nad jazerom,Ladožská,smer Rovníková,21.2908096313476,48.681900024414
+184,68,3,True,False,False,Košice - Nad jazerom,Ladožská,smer Dneperská,21.2898902893066,48.6830406188964
+185,68,4,True,False,False,Košice - Nad jazerom,Ladožská,smer Rovníková,21.289939880371,48.6829109191894
+186,69,1,False,False,True,Košice - Barca,"Barca, kostoly","smer Barca, základná škola",21.2657604217529,48.6763191223144
+187,69,2,False,False,True,Košice - Barca,"Barca, kostoly",smer Hečkova,21.2656497955322,48.6764793395996
+188,70,1,False,False,True,Košice - Krásna ,Žiacka,smer KNH ,21.3119602203369,48.6713104248046
+189,70,2,False,False,True,Košice - Krásna ,Žiacka,smer Lackova,21.3183708190917,48.6711997985839
+190,70,3,False,False,True,Košice - Krásna ,Žiacka,smer od Teleku,21.3187408447265,48.6715507507324
+191,71,1,False,True,True,Košice - Staré Mesto,Krajský súd,smer Ružová/SOŠ automobilová,21.2495994567871,48.716510772705
+192,71,2,True,False,False,Košice - Staré Mesto,Krajský súd,smer od Zimného štadióna,21.2505702972412,48.7165412902832
+193,71,3,True,False,True,Košice - Staré Mesto,Krajský súd,smer Hlavná pošta,21.2508907318115,48.7175712585449
+194,71,4,True,False,True,Košice - Staré Mesto,Krajský súd,smer od Hlavnej pošty,21.2508201599121,48.7174911499023
+195,71,5,False,True,True,Košice - Staré Mesto,Krajský súd,smer od SOŠ automobilová/Ružová,21.2493934631347,48.71626663208
+196,71,6,True,False,False,Košice - Staré Mesto,Krajský súd,smer Zimný štadión,21.2485656738281,48.7161979675292
+197,72,1,True,False,True,Košice - Sever,Okresný úrad,smer Havlíčkova,21.2469806671142,48.7352905273437
+198,72,2,True,False,True,Košice - Sever,Okresný úrad,smer Poliklinika Sever,21.247480392456,48.7345581054687
+199,72,3,False,False,True,Košice - Sever,Okresný úrad,smer  Mier,21.2469005584716,48.7367897033691
+200,72,4,False,False,True,Košice - Sever,Okresný úrad,smer Botanická záhrada,21.2454795837402,48.7365112304687
+201,72,5,False,False,True,Košice - Sever,Okresný úrad,smer Pol.sever(Tomášikova ul.),21.248918,48.733723
+202,72,6,False,False,True,Košice - Sever,Okresný úrad,smer Pol.sever(Tolstého ul.),21.250926,48.734458
+203,73,1,False,False,True,Košice - Sídlisko Ťahanovce,Krematórium,smer Zelený dvor,21.289529800415,48.7723312377929
+204,73,2,False,False,True,Košice - Sídlisko Ťahanovce,Krematórium,konečná,21.2899093627929,48.7725982666015
+205,74,1,False,False,True,Košice - Sídlisko KVP,Kremnická,smer Drabova,21.2194499969482,48.7053298950195
+206,74,2,False,False,True,Košice - Sídlisko KVP,Kremnická,smer od Drabovej,21.2192497253417,48.7051391601562
+207,75,1,False,False,True,Košice - Sever,Krupinská,smer Baňa,21.2305297851562,48.7310409545898
+208,75,2,False,False,True,Košice - Sever,Krupinská,smer Sládkovičova,21.2304992675781,48.7309684753417
+209,76,1,False,False,True,Košice - Košická Nová Ves,Ulica Sv. Ladislava,smer Lingov,21.29660987854,48.7347717285156
+210,76,2,False,False,True,Košice - Košická Nová Ves,Ulica Sv. Ladislava,smer Detský domov Satelit,21.2966995239257,48.7345085144042
+211,77,1,False,False,True,Košice - Barca,"Barca, kultúrny dom",smer VSS križovatka,21.2628993988037,48.6851005554199
+212,77,2,False,False,True,Košice - Barca,"Barca, kultúrny dom",smer Teplého,21.2630500793457,48.6851615905761
+213,77,3,False,False,True,Košice - Barca,"Barca, kultúrny dom",smer Katastrálny úrad,21.2669048309326,48.6855010986328
+214,78,1,False,False,True,Košice - Krásna ,Krásna,smer  Žiacka,21.3122806549072,48.6726417541503
+215,78,2,False,False,True,Košice - Krásna ,Krásna,konečná,21.3123397827148,48.6727218627929
+216,79,1,False,False,True,Košice - Šaca,Kvetná,smer Nemocnica Šaca,21.1714191436767,48.6375999450683
+217,79,2,False,False,True,Košice - Šaca,Kvetná,"smer Šaca , námestie",21.1715698242187,48.6368408203125
+218,80,1,False,False,True,Košice - Krásna ,Lackova,smer od Žiackej,21.319860458374,48.6691818237304
+219,80,2,False,False,True,Košice - Krásna ,Lackova,smer Žiacka,21.3200893402099,48.6689109802246
+220,80,3,False,False,True,Košice - Krásna ,Lackova,"smer od Motorest, Krásna",21.3218898773193,48.6680908203125
+221,80,4,False,False,True,Košice - Krásna,Lackova,"smer Motorest, Krásna",21.3218803405761,48.6679992675781
+222,81,1,False,False,True,Košice - Sever,Letecká,smer Suchodolinská,21.2393398284912,48.7424888610839
+223,81,2,False,False,True,Košice - Sever,Letecká,smer Havlíčkova,21.2385997772216,48.7427101135253
+224,82,1,False,False,True,Košice - Barca,Letisko ,"smer Moldavská, obchodné centrá",21.2373790740966,48.6734008789062
+225,82,2,False,False,True,Košice - Barca,Letisko ,konečná,21.2364406585693,48.6729202270507
+226,83,1,False,False,True,Košice - Dargovských hrdinov,Lingov,smer Sečovská (l. 55),21.2912006378173,48.7323913574218
+227,119,2,False,False,True,Košice - Sever,Obchodná akadémia,smer Amfiteáter,21.2397003173828,48.7301788330078
+228,120,1,True,False,False,Košice - Juh,"Železníky, križovatka","smer  Alejová, gymnázium",21.2508201599121,48.7006683349609
+229,120,2,True,False,False,Košice - Juh,"Železníky, križovatka",smer Rozvojová,21.2520198822021,48.699909210205
+230,120,3,False,False,True,Košice - Juh,"Železníky, križovatka","smer Alejová, gymnázium (výluková)",21.2508201599121,48.7006683349609
+231,120,4,False,False,True,Košice - Juh,"Železníky, križovatka",smer Daňový úrad (výluková),21.2520198822021,48.699909210205
+232,121,1,True,False,False,Košice - Nad jazerom,Levočská,smer  VSS križovatka,21.2797203063964,48.6907386779785
+233,121,2,True,False,False,Košice - Nad jazerom,Levočská,smer Dneperská,21.2801094055175,48.6903915405273
+234,121,3,False,False,True,Košice - Nad jazerom,Levočská,smer od Dneperskej,21.2801895141601,48.6902618408203
+235,121,4,False,False,True,Košice - Nad jazerom,Levočská,smer od Bukovecká,21.2800102233886,48.6901588439941
+236,121,5,False,False,True,Košice - Nad jazerom,Levočská,smer od VSS na Dneperskú,21.2799091339111,48.6899604797363
+237,121,6,False,False,True,Košice - Nad jazerom,Levočská,smer od VSS križovatka k Bukoveckej,21.2775001525878,48.6902503967285
+238,122,1,False,False,True,Košice - Nad jazerom,Bukovecká,smer Dneperská,21.2800598144531,48.6918296813964
+239,122,2,False,False,True,Košice - Juh,Bukovecká,smer VSS križovatka,21.2801208496093,48.6928405761718
+240,122,3,False,False,True,Košice - Nad jazerom,Bukovecká,smer Tepláreň,21.2804508209228,48.6938400268554
+241,123,1,False,True,True,Košice - Dargovských hrdinov,Postupimská,smer Zupkova,21.289249420166,48.7323188781738
+242,123,2,False,True,True,Košice - Dargovských hrdinov,Postupimská,"smer Darg.hrdinov, MiÚ",21.2889347076416,48.7321815490722
+243,124,1,False,False,True,Košice - Západ,"Moldavská, OC",smer Pereš,21.2378902435302,48.6994094848632
+244,124,2,False,False,True,Košice - Juh,"Moldavská, OC",smer SOŠ automobilová,21.2397499084472,48.7009201049804
+245,124,3,False,False,True,Košice - Západ,"Moldavská, OC",smer DPMK (Popradská ul.),21.2376194000244,48.700698852539
+246,124,4,True,False,False,Košice - Západ,"Moldavská, OC",smer Pereš,21.2384700775146,48.6997718811035
+247,124,5,True,False,False,Košice - Juh,"Moldavská, OC",smer SOŠ automobilová,21.2384700775146,48.6997718811035
+248,124,6,False,False,True,Košice - Juh,"Moldavská, OC","smer Pri pracchárni,OC (pri OBI)",21.2400493621826,48.6987113952636
+249,125,1,True,False,False,Košice - Západ,Obchodné centrum Optima,smer Perešská,21.2355403900146,48.6965293884277
+250,125,2,True,False,False,Košice - Západ,Obchodné centrum Optima,smer od Perešská,21.2359294891357,48.6969108581542
+251,125,3,False,False,True,Košice - Juh,Obchodné centrum Optima,smer Luník VIII,21.2365093231201,48.6962394714355
+252,125,4,False,False,True,Košice - Juh,Obchodné centrum Optima,konečná,21.2361602783203,48.6960906982421
+253,125,5,True,False,False,Košice - Západ,Obchodné centrum Optima,konečná,21.2356719970703,48.696792602539
+254,125,6,True,False,False,Košice - Západ,Obchodné centrum Optima,konečná,21.2355403900146,48.6965293884277
+255,125,7,False,False,True,Košice - Juh,Obchodné centrum Optima,smer OC Baumax (l.č.20),21.2375545501708,48.6968383789062
+256,125,8,False,False,True,Košice - Západ,Obchodné centrum Optima,smer Perešská (+výluková),21.2355899810791,48.6968383789062
+257,125,9,False,False,True,Košice - Juh,Obchodné centrum Optima,smer Perešská (pri Lyžiarskom dome),21.2372493743896,48.69673538208
+258,126,1,False,True,True,Košice - Dargovských hrdinov,Zupkova,smer Poliklinika Východ,21.2852802276611,48.7336883544921
+259,126,2,False,True,True,Košice - Dargovských hrdinov,Zupkova,smer Postupimská,21.2849693298339,48.7336196899414
+260,127,1,True,False,False,Košice - Nad jazerom,Važecká,smer Rovníková,21.2994003295898,48.675968170166
+261,127,2,True,False,False,Košice - Nad jazerom,Važecká,konečná,21.298599243164,48.6765403747558
+262,127,3,False,False,True,Košice - Nad jazerom,Važecká,smer Rovníková,21.2987594604492,48.6762809753417
+263,127,4,False,False,True,Košice - Nad jazerom,Važecká,smer Golianova,21.2991905212402,48.6757316589355
+264,127,5,False,False,True,Košice - Nad jazerom,Važecká,konečná,21.2987594604492,48.6762809753417
+265,127,6,False,False,True,Košice - Nad jazerom,Važecká,smer Golianova (l.13)vnút.komun.,21.2991008758544,48.6763687133789
+266,128,1,False,True,True,Košice - Sever,Tomášikova,smer Mier,21.2539005279541,48.7358703613281
+267,128,2,False,True,True,Košice - Sever,Tomášikova,smer Národné námestie,21.2538204193115,48.7354393005371
+268,129,1,False,False,True,Košice - Sever,Mier,smer Vodárenská,21.251070022583,48.7394294738769
+269,129,2,False,False,True,Košice - Sever,Mier,smer od Vodárenskej,21.2509994506835,48.7391700744628
+270,129,3,False,True,True,Košice - Sever,Mier,smer Pri hati,21.2541007995605,48.7395210266113
+271,129,4,False,True,True,Košice - Sever,Mier,smer od Hati,21.2533893585205,48.7393684387207
+272,130,1,True,False,False,Košice - Západ,Bernolákova,smer Magistrát mesta Košice,21.2366695404052,48.710350036621
+273,130,2,True,False,False,Košice - Západ,Bernolákova,smer Spoloč. pavilón,21.2371406555175,48.7094192504882
+274,130,3,False,False,True,Košice - Západ,Bernolákova,smer Magistrát mesta Košice,21.2367706298828,48.7106208801269
+275,240,1,False,False,True,Košice - Kavečany,Budanova,"smer Kavečany, cintorín",21.2148208618164,48.7718696594238
+276,130,4,False,False,True,Košice - Západ,Bernolákova,smer Spoloč. pavilón,21.2369709014892,48.7094001770019
+277,134,1,False,False,True,Košice - Pereš,Pereš,smer Haburská,21.2026901245117,48.694580078125
+278,134,2,False,False,True,Košice - Pereš,Pereš,konečná,21.2026901245117,48.694580078125
+279,135,1,False,False,True,Košice - Lorinčík,Lorinčík,"smer Lorinčík , MiÚ",21.1926193237304,48.6899299621582
+280,135,2,False,False,True,Košice - Lorinčík,Lorinčík,konečná,21.1929397583007,48.6898193359375
+281,136,1,False,False,True,Košice - Poľov,Poľov,smer Kovaľská,21.1887855529785,48.6676788330078
+282,136,2,False,False,True,Košice - Poľov,Poľov,konečná,21.1889400482177,48.6673507690429
+283,137,1,False,False,True,Košice - Vyšné Opátske,Ovsená,smer Bosákova,21.2774105072021,48.7197189331054
+284,138,1,False,False,True,Košice - Staré Mesto,Palackého,smer Nám. osloboditeľov,21.2683792114257,48.7186203002929
+285,138,2,False,True,True,Košice - Juh,Palackého,smer Bosákova,21.2689800262451,48.7185516357421
+286,139,1,False,False,True,Košice - Juh,Pasteurova,smer Stará nemocnica,21.2567996978759,48.7095489501953
+287,140,1,False,False,True,Košice - Šaca,Prekladisko hotových výrobkov,smer CPR,21.20166015625,48.604148864746
+288,140,2,False,False,True,Košice - Šaca,Prekladisko hotových výrobkov,konečná,21.2015705108642,48.6041603088378
+289,141,1,False,False,True,Košice - Sever,Slovenská č. 20,smer Pri hati,21.2600803375244,48.7372512817382
+290,141,2,False,False,True,Košice - Sever,Slovenská č. 20,smer Svornosti,21.2601299285888,48.7369384765625
+291,142,1,False,False,True,Košice - Džungľa,Plťová,"smer Tesco, Džungľa",21.2665691375732,48.7389907836914
+292,142,2,False,False,True,Košice - Džungľa,Plťová,smer Člnková,21.2659606933593,48.7383193969726
+293,143,1,False,False,True,Košice - Šaca,Plynáreň Haniska,smer Podjazdy Haniska,21.2304191589355,48.6192588806152
+294,143,2,False,False,True,Košice - Šaca,Plynáreň Haniska,smer Stav. 2 USS,21.2288799285888,48.6185188293457
+295,144,1,True,False,True,Košice - Západ,Idanská,smer Zimný štadión,21.246410369873,48.7092399597167
+296,144,2,True,False,True,Košice - Západ,Idanská,smer SOŠ automobilová,21.2462501525878,48.7090911865234
+297,145,1,False,False,True,Košice - Staré Mesto,Pod Furčou,smer Vo výmoli,21.2737503051757,48.7359085083007
+298,145,2,False,True,True,Košice - Dargovských hrdinov,Pod Furčou,smer Sofijská,21.2740898132324,48.7358589172363
+299,146,1,False,False,True,Košice - Šaca,Podjazdy Haniska,smer Vrátnica 4 USS,21.2261295318603,48.6231002807617
+300,146,2,False,False,True,Košice - Šaca,Podjazdy Haniska,smer Plynáreň Haniska,21.2259998321533,48.6230506896972
+301,147,1,False,False,True,Košice - Barca,Podnikateľská,smer Hečkova,21.2707595825195,48.6719703674316
+302,147,2,False,False,True,Košice - Barca,Podnikateľská,smer od Hečkovej,21.2707405090332,48.6711616516113
+303,148,1,True,False,False,Košice - Pereš,Perešská,smer OC Optima,21.2182903289794,48.6840591430664
+304,148,2,True,False,False,Košice - Pereš,Perešská,"smer Poľov, rázcestie",21.2179298400878,48.6837615966796
+305,148,3,False,False,True,Košice - Pereš,Perešská,smer Moldavská OC,21.2184906005859,48.6844444274902
+306,148,4,False,False,True,Košice - Pereš,Perešská,smer Revúcka,21.2178001403808,48.6849517822265
+307,148,5,False,False,True,Košice - Pereš,Perešská,"smer Poľov, rázcestie",21.2178192138671,48.6842308044433
+308,149,1,False,False,True,Košice - Sever,Polianska,smer Ďumbierska,21.2462005615234,48.7484283447265
+309,149,2,False,False,True,Košice - Sever,Polianska,smer Vodárenská,21.2454395294189,48.7480697631835
+310,150,1,False,False,True,Košice - Dargovských hrdinov,Poliklinika Východ,smer Exnárova,21.2831192016601,48.738971710205
+311,150,2,False,False,True,Košice - Dargovských hrdinov,Poliklinika Východ,smer od Exnárovej,21.2826690673828,48.7389106750488
+312,150,3,False,True,True,Košice - Dargovských hrdinov,Poliklinika Východ,smer od Zupkovej k Fábryho,21.2823905944824,48.7382087707519
+313,150,4,False,True,True,Košice - Dargovských hrdinov,Poliklinika Východ,smer od Fábryho k Zupkovej,21.2818202972412,48.7384490966796
+314,151,1,True,False,False,Košice - Západ,Nová nemocnica,smer Amfiteáter,21.23530960083,48.7224807739257
+315,151,2,True,False,False,Košice - Západ,Nová nemocnica,smer Kino Družba,21.2346496582031,48.7214698791503
+316,151,3,False,False,True,Košice - Západ,Nová nemocnica,smer Amfiteáter,21.2355709075927,48.7225914001464
+317,151,4,False,False,True,Košice - Západ,Nová nemocnica,smer Sokolovská,21.2338905334472,48.7223014831542
+318,151,5,False,False,True,Košice - Západ,Nová nemocnica,smer Považská,21.2360591888427,48.7216796875
+319,151,6,False,False,True,Košice - Západ,Nová nemocnica,smer Kino Družba (výluková),21.2345008850097,48.7215499877929
+320,152,1,False,True,True,Košice - Sídlisko KVP,Poliklinika KVP,"smer  MiÚ, KVP",21.2153491973876,48.7136917114257
+321,152,2,False,True,True,Košice - Sídlisko KVP,Poliklinika KVP,"smer od MiÚ, KVP",21.2157306671142,48.7132911682128
+322,153,1,True,False,True,Košice - Staré Mesto,Poliklinika Sever,smer Nám. Mar. mieru,21.2509708404541,48.7305488586425
+323,153,2,True,False,True,Košice - Sever,Poliklinika Sever,smer Krajský úrad,21.2497596740722,48.7319602966308
+324,153,3,False,False,True,Košice - Staré Mesto,Poliklinika Sever,smer Nám. Mar. mieru,21.2509708404541,48.7305488586425
+325,153,4,False,False,True,Košice - Sever,Poliklinika Sever,smer Technická univerzita,21.2497596740722,48.7319602966308
+326,153,5,False,False,True,Košice - Sever,Poliklinika Sever,smer Krajský úrad,21.2497596740722,48.7319602966308
+327,153,6,False,False,True,Košice - Sever,Poliklinika Sever,smer Národné námestie (Tolstého ul.),21.25239,48.73293
+328,154,1,False,False,True,Košice - Juh,Poľská,smer Triton,21.2615394592285,48.6996307373046
+329,154,2,False,False,True,Košice - Juh,Poľská,smer  Verejný cintorín,21.2615947723388,48.6989784240722
+330,155,1,False,False,True,Košice - Staré Mesto,Pošta 2,smer Žel. nemocnica,21.2636909484863,48.7264709472656
+331,155,2,False,True,True,Košice - Staré Mesto,Pošta 2,smer Staničné námestie,21.2648391723632,48.7261009216308
+332,157,1,False,False,True,Košice - Sever,Pri hati,smer Slovenská,21.25777053833,48.7407684326171
+333,157,2,False,False,True,Košice - Sever,Pri hati,konečná,21.2579307556152,48.7405700683593
+334,157,3,False,True,True,Košice - Sídlisko Ťahanovce,Pri hati,smer  Mier,21.2586193084716,48.7417411804199
+335,157,4,False,True,True,Košice - Džungľa,Pri hati,"smer Džungľa, Tesco",21.2588005065917,48.7415885925292
+336,158,1,False,False,True,Košice - Juh,"Pri prachárni, obchodné centrá",smer Železníky,21.2504005432128,48.6991691589355
+337,158,2,False,False,True,Košice - Juh,"Pri prachárni, obchodné centrá","smer Alejová, gymnázium",21.2493495941162,48.6983184814453
+338,158,3,False,False,True,Košice - Juh,"Pri prachárni, obchodné centrá",smer OC Cassovia,21.2497596740722,48.6989784240722
+339,159,1,False,False,True,Košice - Barca,Rašelinové závody,smer Spaľovňa,21.3100891113281,48.6560897827148
+340,159,2,False,False,True,Košice - Barca,Rašelinové závody,smer Valaliky,21.3101406097412,48.6562004089355
+341,160,1,False,False,True,Košice - Luník IX,"Luník IX, rázcestie",smer Luník VIII,21.2235202789306,48.6996688842773
+342,160,2,False,False,True,Košice - Luník IX,"Luník IX, rázcestie",smer Kremnická,21.2221202850341,48.7006912231445
+343,162,1,False,False,True,Košice - Poľov,"Poľov, rázcestie",smer Kovaľská,21.207420349121,48.6624298095703
+344,162,2,False,False,True,Košice - Poľov,"Poľov, rázcestie",smer od Kovaľskej,21.2069396972656,48.6623802185058
+345,162,3,False,False,True,Košice - Poľov,"Poľov, rázcestie",smer od Perešskej  na L. Dvor,21.2074699401855,48.6617202758789
+346,162,4,True,False,False,Košice - Poľov,"Poľov, rázcestie",smer L. Dvor,21.2082901000976,48.6625213623046
+347,162,5,True,False,False,Košice - Poľov,"Poľov, rázcestie",smer Perešská,21.2084808349609,48.6630096435546
+348,162,6,False,False,True,Košice - Poľov,"Poľov, rázcestie",smer od L. Dvora na Pereš,21.2080497741699,48.6624908447265
+349,164,1,False,False,True,Košice - Nad jazerom,Rovníková,smer Ladožská,21.2937793731689,48.6801605224609
+350,164,2,False,False,True,Košice - Nad jazerom,Rovníková,smer Važecká,21.2948493957519,48.6791305541992
+351,164,3,True,False,False,Košice - Nad jazerom,Rovníková,smer Ladožská,21.2937507629394,48.6803894042968
+352,164,4,True,False,False,Košice - Nad jazerom,Rovníková,smer Važecká,21.2936992645263,48.6803398132324
+353,165,1,False,False,True,Košice - Juh,Rušňové depo,smer od Malej stanice,21.2674808502197,48.7151794433593
+354,165,2,False,False,True,Košice - Juh,Rušňové depo,smer Malá stanica,21.2657794952392,48.7131881713867
+355,166,1,False,True,True,Košice - Západ,Ružová - OC Galéria,smer Dom umenia,21.2427806854248,48.7140007019042
+356,166,2,False,True,True,Košice - Západ,Ružová - OC Galéria,smer Mestský magistrát,21.2403392791748,48.7143287658691
+357,167,1,True,False,True,Košice - Juh,Južná trieda č. 125,smer Verejný cintorín,21.2652702331542,48.692268371582
+358,167,2,True,False,True,Košice - Juh,Južná trieda č. 125,smer VSS križovatka,21.2651691436767,48.6925315856933
+359,168,1,False,False,True,Košice - Vyšné Opátske,Sečovská,smer od Bosákovej,21.2798995971679,48.726390838623
+360,168,2,False,False,True,Košice - Dargovských hrdinov,Sečovská,smer Bosákova,21.2789993286132,48.7262802124023
+361,169,1,False,False,True,Košice - Juh,Senný trh,smer Rušňové depo,21.2656707763671,48.7174911499023
+362,169,2,True,False,True,Košice - Staré Mesto,Senný trh,smer Nám. osloboditeľov,21.2641696929931,48.7187614440917
+363,169,3,True,False,False,Košice - Staré Mesto,Senný trh,smer Stan.námestie,21.2644290924072,48.7188415527343
+364,169,4,False,False,True,Košice - Juh,Senný trh,smer Nám.osloboditeľov (výlukový),21.2579402923583,48.7208404541015
+365,169,5,False,True,True,Košice - Staré Mesto,Senný trh,"smer Jakabov palác,Staničné nám.",21.2650508880615,48.7190208435058
+366,83,2,False,False,True,Košice - Košická Nová Ves,Lingov,smer Ul. Sv. Ladislava,21.2924194335937,48.7324790954589
+367,170,1,True,False,False,Košice - Barca,Socha Jána Pavla II.,smer Katastrálny úrad,21.2680206298828,48.6879806518554
+368,170,2,True,False,False,Košice - Barca,Socha Jána Pavla II.,konečná,21.2682991027832,48.6795005798339
+369,170,3,False,False,True,Košice - Barca,Socha Jána Pavla II.,smer Katastrálny úrad,21.2698993682861,48.6752090454101
+370,170,4,False,False,True,Košice - Barca,Socha Jána Pavla II.,smer Hečkova,21.2686176300048,48.6790390014648
+371,170,5,False,False,True,Košice - Barca,Socha Jána Pavla II.,konečná,21.2685585021972,48.6792678833007
+372,171,1,False,False,True,Košice - Luník IX,"Luník IX, sídlisko",smer Luník IX - rázcestie,21.2206897735595,48.6998596191406
+373,171,2,False,False,True,Košice - Luník IX,"Luník IX, sídlisko",konečná,21.2206897735595,48.6998596191406
+374,172,1,False,False,True,Košice - Juh,"Kasárne, Kulturpark",smer Dom umenia,21.2555694580078,48.7122192382812
+375,172,2,False,False,True,Košice - Juh,"Kasárne, Kulturpark",smer Pasteurova,21.2550106048583,48.7131385803222
+376,173,1,False,False,True,Košice - Sever,Sládkovičova,smer Krupinská,21.2352790832519,48.7293281555175
+377,173,2,False,False,True,Košice - Sever,Sládkovičova,smer Amfiteáter,21.2379703521728,48.7289390563964
+378,174,1,False,False,True,Košice - Staré Mesto,Slovenský rozhlas,smer Radnica Starého mesta,21.251760482788,48.723030090332
+379,174,2,False,False,True,Košice - Staré Mesto,Slovenský rozhlas,smer Alžbetina,21.2520198822021,48.7217903137207
+380,174,3,False,False,True,Košice - Staré Mesto,Slovenský rozhlas,smer Hlavná pošta,21.251760482788,48.7228889465332
+381,175,1,False,False,True,Košice - Sever,Slovenská č. 42,smer Pri hati,21.2595500946044,48.7389602661132
+382,175,2,False,False,True,Košice - Sever,Slovenská č. 42,smer Svornosti,21.2594394683837,48.7390708923339
+383,176,1,False,False,True,Košice - Sídlisko Ťahanovce,Dopravná,smer Magnezitárska,21.2703094482421,48.7462882995605
+384,176,2,False,False,True,Košice - Sídlisko Ťahanovce,Dopravná,smer Tesco Džungľa,21.2693004608154,48.7468605041503
+385,177,1,False,False,True,Košice - Sídlisko Ťahanovce,Sofijská,smer Belehradská,21.272590637207,48.7517700195312
+386,177,2,False,False,True,Košice - Sídlisko Ťahanovce,Sofijská,smer od Belehradskej,21.2721290588378,48.7516708374023
+387,178,1,False,False,True,Košice - Západ,Sokolovská,smer Nová nemocnica,21.2303104400634,48.7232398986816
+388,178,2,False,False,True,Košice - Západ,Sokolovská,smer od Novej nemocnici,21.2310009002685,48.7230987548828
+389,180,1,False,False,True,Košice - Juh,SOŠ automobilová,smer Dom umenia,21.2444705963134,48.7061614990234
+390,180,2,False,False,True,Košice - Západ,SOŠ automobilová,smer od Krajského súdu,21.2439098358154,48.7060508728027
+391,180,3,True,False,False,Košice - Západ,SOŠ automobilová,smer Idanská,21.2439193725585,48.7057800292968
+392,180,4,True,False,False,Košice - Západ,SOŠ automobilová,smer od Idanskej,21.2435493469238,48.7054405212402
+393,181,1,False,False,True,Košice - Šaca,Učňovská,"smer Šaca, námestie",21.1726493835449,48.6035690307617
+394,181,2,False,False,True,Košice - Šaca,Učňovská,"smer od Šaca, námestie",21.1726207733154,48.6300010681152
+395,181,3,False,False,True,Košice - Šaca,Učňovská,"smer Šaca,školy",21.1725997924804,48.6302490234375
+396,182,1,False,False,True,Košice - Barca,Spaľovňa,smer Rašelinové závody,21.3128395080566,48.6584091186523
+397,240,2,False,False,True,Košice - Kavečany,Budanova,smer Vitalina,21.2140502929687,48.771728515625
+398,182,2,False,False,True,Košice - Barca,Spaľovňa,konečná,21.3128604888916,48.6581382751464
+399,183,1,True,False,True,Košice - Západ,Spoločenský pavilón,smer Bernolákova,21.2399291992187,48.7067184448242
+400,183,2,True,False,False,Košice - Západ,Spoločenský pavilón,smer od Bernolákovej k DPMK,21.2385692596435,48.7064895629882
+401,183,3,False,False,True,Košice - Západ,Spoločenský pavilón,smer  SOŠ automobilová,21.2398490905761,48.7065887451171
+402,183,4,False,False,True,Košice - Západ,Spoločenský pavilón,smer DPMK,21.2381591796875,48.7061309814453
+403,183,5,False,False,True,Košice - Západ,Spoločenský pavilón,smer Bernolákova (výl. Bard.),21.2386207580566,48.7063484191894
+404,183,6,True,False,False,Košice - Západ,Spoločenský pavilón,smer SOŠ automobilová,21.2402801513671,48.7064590454101
+405,183,7,False,False,True,Košice - Západ,Spoločenský pavilón,smer Bernolákova (výluková Tr.SNP),21.2396793365478,48.7070388793945
+406,183,8,True,False,False,Košice - Západ,Spoločenský pavilón,smer od DPMK,21.2390403747558,48.7066993713378
+407,184,1,True,False,True,Košice - Juh,Stará nemocnica,smer Astória,21.2612705230712,48.7081718444824
+408,184,2,True,False,True,Košice - Juh,Stará nemocnica,smer Ryba,21.2614593505859,48.7076606750488
+409,184,3,False,False,True,Košice - Juh,Stará nemocnica,smer Slovenská televízia,21.2583198547363,48.7069702148437
+410,184,4,False,False,True,Košice - Juh,Stará nemocnica,smer Železníky,21.2577209472656,48.7062606811523
+411,184,5,False,False,True,Košice - Juh,Stará nemocnica,smer Triton,21.2586402893066,48.7061080932617
+412,185,1,True,False,True,Košice - Staré Mesto,Radnica Starého mesta,smer od Hlavnej pošty,21.2498703002929,48.7256698608398
+413,185,2,True,False,True,Košice - Staré Mesto,Radnica Starého mesta,smer od Amfiteátra,21.2493000030517,48.7266006469726
+414,185,3,True,False,True,Košice - Staré Mesto,Radnica Starého mesta,smer Amfiteáter,21.2491092681884,48.7266082763671
+415,185,4,True,False,True,Košice - Staré Mesto,Radnica Starého mesta,smer Hlavná pošta,21.2497291564941,48.7252502441406
+416,185,5,False,False,True,Košice - Staré Mesto,Radnica Starého mesta,smer Zimná,21.2511596679687,48.7259788513183
+417,185,6,False,False,True,Košice - Staré Mesto,Radnica Starého mesta,smer NMM (Bačíkova),21.2519798278808,48.7256202697753
+418,185,7,False,False,True,Košice - Staré Mesto,Radnica Starého mesta,smer Slovenský rozhlas,21.2511005401611,48.7255096435546
+419,185,8,False,False,True,Košice - Staré Mesto,Radnica Starého mesta,smer Hl.pošta(Kuz.ul.),21.2496356964111,48.7257766723632
+420,186,1,False,False,True,Košice - Sídlisko KVP,Starozagorská,smer Sokolovská,21.2154998779296,48.720100402832
+421,186,2,False,False,True,Košice - Sídlisko KVP,Starozagorská,smer od Sokolovskej,21.2149696350097,48.7200088500976
+422,186,3,False,False,True,Košice - Sídlisko KVP,Starozagorská,konečná,21.2154998779296,48.720100402832
+423,187,1,False,False,True,Košice - Šaca,Stavadlo 2 U.S.Steel,smer Plynárne Haniska,21.2140998840332,48.6106796264648
+424,187,2,False,False,True,Košice - Šaca,Stavadlo 2 U.S.Steel,smer CPR USS,21.2140598297119,48.6107215881347
+425,188,1,False,False,True,Košice - Západ,Stodolova,smer od Luník VIII,21.2340698242187,48.7008781433105
+426,188,2,False,False,True,Košice - Západ,Stodolova,smer Luník VIII,21.2338905334472,48.7008209228515
+427,188,3,False,False,True,Košice - Západ,Stodolova,smer Pereš (školský spoj),21.233829498291,48.7009887695312
+428,189,1,False,False,True,Košice - Sever,Suchá dolina,smer Vyhliadková veža,21.2303791046142,48.7578697204589
+429,189,2,False,False,True,Košice - Sever,Suchá dolina,smer Štrbská,21.2302494049072,48.7578582763671
+430,190,1,False,False,True,Košice - Sever,Suchodolinská,smer Čermeľ,21.2364406585693,48.7457389831542
+431,190,2,False,False,True,Košice - Sever,Suchodolinská,smer Letecká,21.2359790802001,48.7461013793945
+432,191,1,False,False,True,Košice - Sever,Svornosti,smer Pri hati,21.2613296508789,48.7333984375
+433,191,2,False,False,True,Košice - Sever,Svornosti,smer Alvinczyho,21.261339187622,48.7331314086914
+434,192,1,True,False,False,Košice - Sever,Havlíčkova,smer Krajský úrad,21.2451190948486,48.7387199401855
+435,192,2,False,False,True,Košice - Sever,Havlíčkova,smer Letecká,21.2452697753906,48.7388191223144
+436,192,3,False,False,True,Košice - Sever,Havlíčkova,smer Krajský úrad,21.2450294494628,48.7386207580566
+437,192,4,False,False,True,Košice - Sever,Havlíčkova,smer Polianska,21.2459297180175,48.7392196655273
+438,192,5,True,False,False,Košice - Sever,Havlíčkova,konečná,21.2452201843261,48.7387084960937
+439,192,6,False,False,True,Košice - Sever,Havlíčkova,konečná,21.2447490692138,48.7386283874511
+440,192,7,True,False,False,Košice - Sever,Havlíčkova,slučka,21.2458705902099,48.7399139404296
+441,194,1,False,False,True,Košice - Vyšné Opátske,Králičia,smer BPMK,21.2802600860595,48.7024993896484
+442,194,2,False,False,True,Košice - Vyšné Opátske,Králičia,smer Tepláreň,21.2800998687744,48.7017097473144
+443,196,1,False,False,True,Košice - Sever,Štrbská,smer Suchá dolina,21.2393207550048,48.7521705627441
+444,196,2,False,False,True,Košice - Sever,Štrbská,smer Mengusovská,21.2391891479492,48.7521514892578
+445,197,1,True,False,False,Košice - Sever,Technická univerzita,smer Botanická záhrada,21.2441692352294,48.7306594848632
+446,197,2,True,False,False,Košice - Sever,Technická univerzita,smer Zimná,21.2449703216552,48.7300186157226
+447,197,3,False,False,True,Košice - Staré Mesto,Technická univerzita,smer od amfiteátra,21.2441501617431,48.7294082641601
+448,197,4,False,False,True,Košice - Sever,Technická univerzita,smer Amfiteáter,21.2444591522216,48.7296600341796
+449,197,5,False,False,True,Košice - Sever,Technická univerzita,smer od Botanickej záhrady,21.2445907592773,48.7302017211914
+450,197,6,False,False,True,Košice - Sever,Technická univerzita,smer Botanická záhrada,21.2439193725585,48.7308807373046
+451,198,1,False,False,True,Košice - Juh,Tepláreň,smer Bukovecká,21.2800903320312,48.697940826416
+452,198,2,False,False,True,Košice - Nad jazerom,Tepláreň,smer Králičia,21.2803993225097,48.6986007690429
+453,198,3,False,False,True,Košice - Nad jazerom,Tepláreň,smer Dneperská (l.54),21.2808609008789,48.6972198486328
+454,199,1,False,False,True,Košice - Barca,Teplého,"smer Barca, kultúrny dom",21.2615890502929,48.6825714111328
+455,199,2,False,False,True,Košice - Barca,Teplého,"smer Barca, základná škola",21.261489868164,48.682689666748
+456,200,1,False,True,True,Košice - Dargovských hrdinov,Priemyselná,smer Vo výmoli,21.2774906158447,48.7287483215332
+457,200,2,False,False,True,Košice - Staré Mesto,Priemyselná,smer Bosákova,21.2771091461181,48.7282905578613
+458,83,3,False,False,True,Košice - Košická Nová Ves,Lingov,smer od Ul. Sv. Ladislava,21.2913608551025,48.7324790954589
+459,201,1,False,False,True,Košice - Západ,Trebišovská,smer Žilinská,21.2314205169677,48.7031593322753
+460,201,2,False,False,True,Košice - Západ,Trebišovská,smer od Žilinskej,21.231740951538,48.702709197998
+461,202,1,False,False,True,Košice - Juh,Triton,smer Stará nemocnica,21.2611694335937,48.7015495300292
+462,202,2,False,False,True,Košice - Juh,Triton,smer Verejný cintorín,21.2611503601074,48.7013092041015
+463,203,1,False,False,True,Košice - Staré Mesto,"Alžbetina, Rek.UPJŠ",smer Slovenský rozhlas,21.2525596618652,48.7197685241699
+464,203,2,False,False,True,Košice - Staré Mesto,"Alžbetina, Rek.UPJŠ",smer Dom umenia,21.2527198791503,48.7188682556152
+465,204,1,False,False,True,Košice - Vyšné Opátske,V úvoze,smer ŠpTP,21.2838306427001,48.7028884887695
+466,204,2,False,False,True,Košice - Vyšné Opátske,V úvoze,smer Vyšné Opátske,21.2832794189453,48.7034683227539
+467,205,1,True,False,False,Košice - Šaca,Valcovne U. S. Steel,smer Ludvíkov Dvor,21.1941204071044,48.632511138916
+468,205,2,True,False,False,Košice - Šaca,Valcovne U. S. Steel,smer VA USS,21.194709777832,48.6329689025878
+469,205,3,False,False,True,Košice - Šaca,Valcovne U. S. Steel,smer Poľov,21.1947402954101,48.6332511901855
+470,205,4,False,False,True,Košice - Šaca,Valcovne U. S. Steel,smer Sídl. KVP,21.194839477539,48.6333694458007
+471,205,5,False,False,True,Košice - Šaca,Valcovne U. S. Steel,smer Ťahanovce,21.194969177246,48.6335411071777
+472,205,6,False,False,True,Košice - Šaca,Valcovne U. S. Steel,smer Darg. hrdinov,21.195119857788,48.6336402893066
+473,205,7,False,False,True,Košice - Šaca,Valcovne U. S. Steel,smer Šaca - SOU,21.194049835205,48.6330986022949
+474,206,1,False,False,True,Košice - Vyšné Opátske,Viničná,smer Gymnázium Opatovská,21.2788391113281,48.7115402221679
+475,206,2,False,False,True,Košice - Vyšné Opátske,Viničná,smer od Gymnázia Opatovská,21.2785892486572,48.7111892700195
+476,207,1,False,False,True,Košice - Kavečany,Vitalina,smer Vyhliadková veža,21.2219696044921,48.7669296264648
+477,207,2,False,False,True,Košice - Kavečany,Vitalina,smer Budanová,21.2219905853271,48.7675285339355
+478,208,1,False,False,True,Košice - Staré Mesto,Vo výmoli,smer Priemyselná,21.2761096954345,48.7325401306152
+479,208,2,False,True,True,Košice - Dargovských hrdinov,Vo výmoli,smer Pod Furčou,21.2763004302978,48.732738494873
+480,209,1,False,False,True,Košice - Sever,Vodárenská,smer  Mier,21.249059677124,48.7411804199218
+481,209,2,False,False,True,Košice - Sever,Vodárenská,smer od  Mier,21.2489795684814,48.7413215637207
+482,210,1,False,True,True,Košice - Staré Mesto,Vodná,smer Mlynská bašta,21.2603397369384,48.7249412536621
+483,210,2,False,True,True,Košice - Staré Mesto,Vodná,smer Jakabov palác,21.2603893280029,48.724739074707
+484,211,1,False,False,True,Košice - Pereš,"Pereš, vodojem",,21.2255191802978,48.6893615722656
+485,212,1,False,False,True,Košice - Šaca,Vrátnica 4 U.S.Steel,smer Podjazdy Haniska,21.2179508209228,48.6297607421875
+486,212,2,False,False,True,Košice - Šaca,Vrátnica 4 U.S.Steel,smer Ludvíkov Dvor,21.2175502777099,48.6302490234375
+487,213,1,True,False,False,Košice - Juh,Katastrálny úrad,smer VSS križovatka,21.2677993774414,48.6828002929687
+488,213,2,True,False,False,Košice - Juh,Katastrálny úrad,smer Socha Jána Pavla II,21.2678203582763,48.6825103759765
+489,241,1,False,False,True,Košice - Juh,Pri prachárni,smer Obchodné centrum,21.2445201873779,48.6937408447265
+490,213,3,False,False,True,Košice - Juh,Katastrálny úrad,smer VSS križovatka,21.2681999206542,48.6818809509277
+491,213,4,False,False,True,Košice - Juh,Katastrálny úrad,smer Socha Jána Pavla II,21.2672500610351,48.6838493347167
+492,214,1,True,False,False,Košice - Juh,"VSS, križovatka",smer od Levočskej k Južnej tr. 125,21.2659664154052,48.6893806457519
+493,214,2,True,False,False,Košice - Juh,"VSS, križovatka",smer od Levočskej k Autocampingu,21.2645072937011,48.6887168884277
+494,214,3,True,False,False,Košice - Juh,"VSS, križovatka",smer od Katastrálneho úrad,21.266300201416,48.6882209777832
+495,214,4,True,False,False,Košice - Juh,"VSS, križovatka",smer Levočská,21.2673282623291,48.6889038085937
+496,214,5,True,False,False,Košice - Juh,"VSS, križovatka",smer Katastrálny úrad,21.2663402557373,48.687889099121
+497,214,6,False,False,True,Košice - Juh,"VSS, križovatka",smer od Levočskej,21.266014099121,48.6898803710937
+498,214,7,False,False,True,Košice - Juh,"VSS, križovatka",smer od Katastrálneho úradu,21.2666397094726,48.687629699707
+499,214,8,False,False,True,Košice - Juh,"VSS, križovatka",smer Levočská,21.2674102783203,48.6886711120605
+500,214,9,False,False,True,Košice - Juh,"VSS, križovatka",smer Katastrálny úrad,21.2661094665527,48.6880989074707
+501,214,10,True,False,False,Košice - Juh,"VSS, križovatka","smer VSS,križ.,výluková",21.2636852264404,48.6886177062988
+502,214,11,True,False,False,Košice - Juh,"VSS, križovatka","smer Autocamping.,výluková",21.2635898590087,48.6886138916015
+503,215,1,True,False,False,Košice - Šaca,Vstup. areál USS,vľavo 2 (smer Zimná),21.1921997070312,48.6226501464843
+504,215,2,True,False,False,Košice - Šaca,Vstup. areál USS,vľavo 1 (smer Stará radnica),21.1907901763916,48.622760772705
+505,215,3,True,False,False,Košice - Šaca,Vstup. areál USS,vpravo 1 (smer SOŠ automobilová),21.1907901763916,48.622760772705
+506,215,4,True,False,False,Košice - Šaca,Vstup. areál USS,"vpravo 2 (smer Alejová, gymnázium)",21.1921997070312,48.6226501464843
+507,215,5,False,False,True,Košice - Šaca,Vstup. areál USS,smer Šaca,21.1928405761718,48.6229515075683
+508,215,6,False,False,True,Košice - Šaca,Vstup. areál USS,smer Sídl. KVP,21.1926803588867,48.6228485107421
+509,215,7,False,False,True,Košice - Šaca,Vstup. areál USS,smer Ťahanovce,21.1925296783447,48.6227188110351
+510,215,8,False,False,True,Košice - Šaca,Vstup. areál USS,smer Darg. hrdinov,21.1923294067382,48.6226387023925
+511,215,9,False,False,True,Košice - Šaca,Vstup. areál USS,smer Šaca - !!!,21.1926155090332,48.6227493286132
+512,215,10,True,False,False,Košice - Šaca,Vstup. areál USS,konečná,21.1911602020263,48.6226501464843
+513,215,11,False,False,True,Košice - Šaca,Vstup. areál USS,konečná,21.1923809051513,48.6226806640625
+514,216,1,True,False,False,Košice - Juh,"Alejová, gymnázium",smer Spoločenský pavilón,21.2468204498291,48.7028617858886
+515,216,2,True,False,False,Košice - Juh,"Alejová, gymnázium","smer Železníky, križovatka",21.2463798522949,48.7030410766601
+516,216,3,False,False,True,Košice - Juh,"Alejová, gymnázium",smer Spoločenský pavilón,21.2465705871582,48.7030982971191
+517,216,4,False,False,True,Košice - Juh,"Alejová, gymnázium",smer od Spoloč. pavilónu,21.2465991973876,48.7028312683105
+518,217,1,False,False,True,Košice - Sever,Vyhliadková veža,smer Vitalina,21.2260398864746,48.7634315490722
+519,217,2,False,False,True,Košice - Sever,Vyhliadková veža,smer Suchá dolina,21.2258701324462,48.7634201049804
+520,218,1,False,False,True,Košice - Ťahanovce,Želiarska,smer Ťahanovská,21.2575492858886,48.7536888122558
+521,218,2,False,False,True,Košice - Ťahanovce,Želiarska,smer Magnezitka,21.2572307586669,48.7538108825683
+522,219,1,False,True,True,Košice - Myslava,"Myslava, Pri škole",smer Maša,21.1961708068847,48.7144508361816
+523,219,2,False,True,True,Košice - Myslava,"Myslava, Pri škole",smer Grunt,21.1966400146484,48.7142181396484
+524,220,1,False,False,True,Košice - Barca,"Barca, základná škola",smer Teplého,21.2633991241455,48.6791687011718
+525,220,2,False,False,True,Košice - Barca,"Barca, základná škola","smer Barca, kostoly",21.2634506225585,48.6789512634277
+526,221,1,False,False,True,Košice - Dargovských hrdinov,Zelený dvor,smer Krematórium,21.2943801879882,48.7704315185546
+527,221,2,False,False,True,Košice - Sídlisko Ťahanovce,Zelený dvor,smer Moňok,21.2934703826904,48.7717590332031
+528,222,1,True,False,False,Košice - Staré Mesto,Zimná,smer Techn. univerzita,21.246919631958,48.7276306152343
+529,222,2,True,False,False,Košice - Staré Mesto,Zimná,smer Stará radnica,21.2466697692871,48.7279090881347
+530,222,3,False,False,True,Košice - Staré Mesto,Zimná,smer Techn. univerzita,21.2465591430664,48.728229522705
+531,222,4,False,False,True,Košice - Staré Mesto,Zimná,smer Stará radnica,21.2465305328369,48.7278785705566
+532,222,6,False,False,True,Košice - Staré Mesto,Zimná,smer Amfiteáter,21.24494,48.73018
+533,223,1,True,False,True,Košice - Západ,Zimný štadión,smer Krajský súd,21.2461605072021,48.713020324707
+534,223,2,True,False,True,Košice - Západ,Zimný štadión,smer Idanská,21.2460899353027,48.7128105163574
+535,224,1,False,False,True,Košice - Sever,Podhradová,smer Vodárenská,21.2437705993652,48.7498817443847
+536,224,2,False,False,True,Košice - Sever,Podhradová,konečná,21.2438106536865,48.7512397766113
+537,225,1,False,False,True,Košice - Kavečany,Zoologická záhrada,smer Kavečany - MÚ,21.2025699615478,48.7808609008789
+538,225,2,False,False,True,Košice - Kavečany,Zoologická záhrada,konečná,21.2028102874755,48.7806587219238
+539,226,1,False,False,True,Košice - Sever,Žel. zastávka Ťahanovce,smer Ťahanovce,21.2507591247558,48.7560005187988
+540,226,2,False,False,True,Košice - Sever,Žel. zastávka Ťahanovce,smer Chrastie,21.2511100769042,48.7561988830566
+541,227,1,False,False,True,Košice - Barca,Železničná zastávka Valaliky,smer Podnikateľská,21.2882595062255,48.6470413208007
+542,227,2,False,False,True,Košice - Barca,Železničná zastávka Valaliky,smer Rašelinové závody,21.2883491516113,48.6469917297363
+543,228,1,False,False,True,Košice - Staré Mesto,Železničná nemocnica,smer od Pošty 2,21.2606296539306,48.7282485961914
+544,228,2,False,False,True,Košice - Staré Mesto,Železničná nemocnica,smer od Alvinzcyho,21.2604999542236,48.7282485961914
+545,228,3,False,True,True,Košice - Staré Mesto,Železničná nemocnica,smer od Nám. Mar. mieru,21.2595691680908,48.7282485961914
+546,229,1,True,False,False,Košice - Staré Mesto,Staničné námestie,"smer Senný trh (l.č.2,3)",21.2662391662597,48.7224502563476
+547,229,2,True,False,False,Košice - Staré Mesto,Staničné námestie,smer Senný trh,21.2662391662597,48.7224502563476
+548,229,4,True,False,False,Košice - Staré Mesto,Staničné námestie,konečná,21.2664699554443,48.7216415405273
+549,229,5,False,False,True,Košice - Staré Mesto,Staničné námestie,vľavo 2 (smer Pošta 2),21.2667503356933,48.7222290039062
+550,229,6,False,True,True,Košice - Staré Mesto,Staničné námestie,vpravo 2 (smer Vodná),21.2668704986572,48.722240447998
+551,229,7,False,False,True,Košice - Staré Mesto,Staničné námestie,vľavo 1 (smer Nám.osloboditeľov),21.2668209075927,48.722068786621
+552,229,8,False,False,True,Košice - Staré Mesto,Staničné námestie,vpravo 1 (smer Palackého),21.266939163208,48.7220993041992
+553,229,9,False,True,True,Košice - Staré Mesto,Staničné námestie,konečná,21.2661590576171,48.7214012145996
+554,229,11,False,False,True,Košice - Staré Mesto,Staničné námestie,smer Jakabov palác(býv.Tesco-l.č.24),21.2663402557373,48.7223510742187
+555,231,1,False,False,True,Košice - Juh,Železníky,smer Stará nemocnica,21.2533798217773,48.7023887634277
+556,231,2,False,False,True,Košice - Juh,Železníky,smer Blšák,21.2528800964355,48.7018318176269
+557,232,1,False,False,True,Košice - Západ,Žilinská,smer Hodonínska,21.2287197113037,48.7087287902832
+558,232,2,False,False,True,Košice - Západ,Žilinská,smer CVČ Domino,21.2288398742675,48.7082595825195
+559,234,1,False,False,True,Košice - Šebastovce,Šebastovce,smer Barca,21.2701797485351,48.6555595397949
+560,234,2,False,False,True,Košice - Šebastovce,Šebastovce,konečná,21.269639968872,48.6559715270996
+561,235,1,False,False,True,Košice - Sever,ZŠ Polianska,smer Mier,21.2455406188964,48.7480316162109
+562,235,2,False,False,True,Košice - Sever,ZŠ Polianska,smer Zoborská,21.2461891174316,48.7484588623046
+563,236,1,False,False,True,Kokšov Bakša,Správa mestskej zelene,smer Spaľovňa,21.3156394958496,48.6575202941894
+564,236,2,False,False,True,Kokšov Bakša,Správa mestskej zelene,smer Kokšov Bakša - č.d.2,21.2156295776367,48.6575584411621
+565,237,1,False,False,True,Kokšov Bakša,Kokšov Bakša č. 2,SMZ,21.3199405670166,48.6502494812011
+566,237,2,False,False,True,Kokšov Bakša,Kokšov Bakša č. 2,Kokšov Bakša č.d.2,21.3199405670166,48.6502494812011
+567,238,1,False,False,True,Kokšov Bakša,Kokšov Bakša č. 215,"Kokšov Bakša, kostol",21.320780,48.648316
+568,238,2,False,False,True,Kokšov Bakša,Kokšov Bakša č. 215,Valaliky,21.3212203979492,48.6481018066406
+569,239,1,False,False,True,Kokšov Bakša,"Kokšov Bakša, kostol",Kokšov Bakša č.d.2,21.3244895935058,48.6470718383789
+570,239,2,False,False,True,Kokšov Bakša,"Kokšov Bakša, kostol",Kokšov Bakša č.d.215,21.3229064941406,48.6449317932128
+571,241,2,False,False,True,Košice - Juh,Pri prachárni,smer OC Optima,21.2445201873779,48.6937408447265
+572,243,1,False,False,True,Košice - Západ,Bratislavská,smer CVČ Domino,21.2251605987548,48.7080001831054
+573,243,2,False,False,True,Košice - Západ,Bratislavská,smer Kremnická,21.2261695861816,48.7077713012695
+574,244,1,False,False,True,Košice - Barca,Valeo,"smer Moldavská, OC",21.2309608459472,48.6767387390136
+575,244,2,False,False,True,Košice - Barca,Valeo,smer Letisko,21.2304706573486,48.6789016723632
+576,245,1,False,False,True,Košice - Juh,Obchodné centrum Cassovia,smer Blšák,21.2508392333984,48.6966705322265
+577,245,2,False,False,True,Košice - Juh,Obchodné centrum Cassovia,konečná,21.2504005432128,48.6963806152343
+578,246,1,False,False,True,Košice - Sídlisko KVP,Dénešova,smer Drabova,21.2164592742919,48.7117614746093
+579,247,1,True,False,False,Košice - Juh,Holubyho,smer Verejný cintorín,21.2636394500732,48.6989707946777
+580,247,2,True,False,False,Košice - Juh,Holubyho,smer Ryba,21.26362991333,48.6987190246582
+581,247,3,False,False,True,Košice - Juh,Holubyho,smer Verejný cintorín (výlukový),21.2615890502929,48.6989288330078
+582,247,4,False,False,True,Košice - Juh,Holubyho,smer Ryba (výlukový),21.2615203857421,48.6996688842773
+583,248,1,False,False,True,Košice - Sever,"Jahodná, horáreň","smer Jahodná, kopec",21.1674499511718,48.7691802978515
+584,249,1,False,False,True,Košice - Šaca,"Šaca, školy",smer VA U.S.Steel,21.1777801513671,48.6303596496582
+585,249,2,False,False,True,Košice - Šaca,"Šaca, školy",smer Učňovská,21.1774501800537,48.6303787231445
+586,250,1,False,False,False,Košice - Sever,Vpred,smer Alpinka,21.1942138671875,48.7556953430175
+587,250,2,False,False,False,Košice - Sever,Vpred,smer Čermeľ,21.195701599121,48.7552795410156
+588,251,1,False,False,True,Haniska,Útulok pre zvieratá,smer Podjazdy Haniska,21.2233295440673,48.6252899169921
+589,251,2,False,False,True,Haniska,Útulok pre zvieratá,smer Ludvíkov Dvor,21.2233295440673,48.6252899169921
+590,252,1,False,False,True,Košice - Staré Mesto,Cassovar,smer Hlavná pošta,21.2456703186035,48.7196311950683
+591,252,2,False,False,True,Košice - Staré Mesto,Cassovar,"smer Považská, Nová Nemocnica",21.2456703186035,48.7196311950683
+592,253,1,False,False,True,Košice - Barca,Faurecia,smer Letisko,21.2306900024414,48.6756896972656
+593,253,2,False,False,True,Košice - Barca,Faurecia,smer Valeo,21.2308902740478,48.675178527832
+594,254,1,False,False,True,Košice - Krásna,Vyšný dvor,smer Pri Teleku,21.3202400207519,48.6729507446289
+595,254,2,False,False,True,Košice - Krásna,Vyšný dvor,smer Žiacka,21.320909500122,48.6735305786132
+596,255,1,False,False,True,Košice - Krásna,Staroslovanská,smer Pri Teleku,21.3168296813964,48.6770591735839
+597,255,2,False,False,True,Košice - Krásna,Staroslovanská,smer Žiacka,21.3167495727539,48.6771011352539
+598,256,1,False,False,True,Košice - Krásna,Pri Teleku,smer Staroslovanská,21.3150997161865,48.6797294616699
+599,256,2,False,False,True,Košice - Krásna,Pri Teleku,konečná,21.3151893615722,48.6796913146972
+600,257,1,False,False,True,Košice - Krásna,Minská,smer Staroslovanská,21.321210861206,48.6703987121582
+601,257,2,False,False,True,Košice - Krásna,Minská,smer od Staroslovanská,21.3202896118164,48.6726913452148
+602,258,1,False,False,True,Košice - Sídlisko Ťahanovce,Helsinská,smer Hanojská,21.2685089111328,48.760269165039
+603,258,2,False,False,True,Košice - Sídlisko Ťahanovce,Helsinská,smer Berlínska,21.268419265747,48.760269165039
+604,259,1,False,False,True,Košice - Staré Mesto,Tip Top,smer Radnica Starého mesta,21.246280670166,48.7267799377441
+605,259,2,False,False,True,Košice - Staré Mesto,Tip Top,smer Amfiteáter,21.2462406158447,48.726951599121
+606,260,1,False,False,True,Košice - Barca,Immopark,smer Letisko,21.2373790740966,48.6789894104003
+607,260,2,False,False,True,Košice - Barca,Immopark,smer Valeo,21.2373790740966,48.6789894104003
+608,261,1,False,False,True,Košice - Vyšné Opátske,Heringeš,smer Sečovská,21.2951793670654,48.7205581665039
+609,261,2,False,False,True,Košice - Vyšné Opátske,Heringeš,smer Lingov,21.2950592041015,48.7204208374023
+610,262,1,False,False,True,Košice - Sídlisko Ťahanovce,EcoPoint,smer Tesco  Džungľa,21.2678394317626,48.7431488037109
+611,262,2,False,False,True,Košice - Sídlisko Ťahanovce,EcoPoint,smer Dopravná,21.2683906555175,48.7431602478027
+612,263,1,False,False,True,Košice - Juh,"OC Optima, služobný vchod","smer OC Optima, dolný vstup",21.2397747039794,48.6953964233398
+613,263,2,False,False,True,Košice - Juh,"OC Optima, služobný vchod",smer Blšák,21.239688873291,48.6955413818359
+614,264,1,False,False,True,Košice - Juh,"OC Optima, dolný vstup",smer OC Optima,21.2381896972656,48.6943931579589
+615,264,2,False,False,True,Košice - Juh,"OC Optima, dolný vstup","smer OC Optima, služobný vchod(konečná)",21.2385845184326,48.6943778991699
+616,265,1,True,False,False,Košice - Sever,Bocatiova,smer Nám.Maratónu miieru,21.252007,48.729382
+617,265,2,True,False,False,Košice - Sever,Bocatiova,smer Poliklinika Sever,21.251734,48.729728
+618,265,3,False,False,True,Košice - Sever,Bocatiova,smer Nám.Maratónu mieru,21.251959,48.729261
+619,265,4,False,False,True,Košice - Sever,Bocatiova,smer Poliklinika Sever,21.251798,48.729796
+620,266,1,False,False,True,Košice - Krásna,Tramínová,smer Pri Teleku,21.313490,48.682141
+621,266,2,False,False,True,Košice - Krásna,Tramínová,konečná,21.313576,48.682219
+622,267,1,True,False,False,Košice - Západ,"Kruhový objazd, Trieda SNP",smer Spol.pavilón,21.2418003082275,48.7056465148925
+623,268,1,True,False,False,Košice - Západ,"Kruhový objazd, Moldavská","smer Moldavská, OC",21.2422065734863,48.703872680664
+624,269,1,True,False,False,Košice - Juh,"Kruhový objazd, Alejová","smer Alejová, gymnázium",21.2445354461669,48.7040748596191
+625,270,1,False,False,True,Kokšov Bakša,Oáza,smer Spaľovňa,21.314441,48.658587
+626,270,2,False,False,True,Kokšov Bakša,Oáza,smer Kokšov Bakša,21.314935,48.658332
+627,271,1,False,False,True,Košice - Barca,Priemyselný park pri letisku,"smer Moldavská, OC",21.2309608459472,48.6767387390136
+628,271,2,False,False,True,Košice - Barca,Priemyselný park pri letisku,smer Letisko,21.2304706573486,48.6789016723632
+629,272,1,False,False,True,Košice - Barca,Bahýľova,smer Letisko,21.2373790740966,48.6789894104003
+630,272,2,False,False,True,Košice - Barca,Bahýľova,smer Priemyselný park pri letisku,21.2373790740966,48.6789894104003
+631,273,1,False,False,True,Košice - Košická Nová Ves,Zelená stráň,smer Heringeš,21.2949657440185,48.7268333435058
+632,273,2,False,False,True,Košice - Košická Nová Ves,Zelená stráň,"smer Zelená stráň, OC",21.2951145172119,48.7268981933593
+633,274,1,False,False,True,Košice - Krásna,Pollova,smer Minská,21.3265552520751,48.6661567687988
+634,274,2,False,False,True,Košice - Krásna,Pollova,smer od Minská,21.1901912689208,48.6662406921386
+635,275,1,False,False,True,Košice - Krásna ,Námestie sv. Cyrila a Metoda,smer KNH ,21.3119602203369,48.6713104248046
+636,275,2,False,False,True,Košice - Krásna ,Námestie sv. Cyrila a Metoda,smer Lackova,21.3183708190917,48.6711997985839
+637,275,3,False,False,True,Košice - Krásna ,Námestie sv. Cyrila a Metoda,smer od Teleku,21.3187408447265,48.6715507507324
+638,276,1,True,False,True,Košice - Západ,Jánošíkova,smer Krajský súd,21.2461605072021,48.713020324707
+639,276,2,True,False,True,Košice - Západ,Jánošíkova,smer Idanská,21.2460899353027,48.7128105163574
+640,277,1,False,False,True,Košice - Košická Nová Ves,"Zelená stráň, Obchodné centrá",smer Zelená stráň,21.2940120697021,48.7276535034179
+641,277,2,False,False,True,Košice - Košická Nová Ves,"Zelená stráň, Obchodné centrá",smer Lingov,21.2941246032714,48.7275886535644
+642,278,1,False,False,True,Košice - Lorinčík,Macákova,smer Bedľová,21.2000694274902,48.6928329467773
+643,278,2,False,False,True,Košice - Lorinčík,Macákova,smer Pereš,21.2001018524169,48.6927452087402
+644,279,1,False,False,True,Košice - Lorinčík,Bedľová,smer Macákova,21.1985778808593,48.6901741027832
+645,279,2,False,False,True,Košice - Lorinčík,Bedľová,konečná,21.198501586914,48.6901512145996
+646,280,1,False,False,True,Košice - Juh,Košická futbalová aréna,smer OC Cassovia,21.2474308013916,48.6971893310546
+647,280,2,False,False,True,Košice - Juh,Košická futbalová aréna,"smer Pri prachárni, OC",21.2476692199707,48.6972694396972
+648,401,1,False,False,True,Košice - Sever,Poliklinika Sever,smer Amfiteáter (len pre ŠpTP),21.2483901977539,48.7308807373046
+649,401,2,False,False,True,Košice - Sever,Poliklinika Sever,smer NMM (len pre ŠpTP),21.2499122619628,48.7314262390136
+650,402,1,False,False,True,Krásna nad Hornádom,Minská,(len pre ŠpTP),21.3202896118164,48.6726913452148
+651,403,1,False,False,True,Košice - Nad jazerom,Talinská,smer Sputniková (len pre ŠpTP),21.3019790649414,48.6737213134765
+652,403,2,False,False,True,Košice - Nad jazerom,Talinská,smer KNH (len pre ŠpTP),21.3019790649414,48.6737213134765
+653,404,1,False,False,True,Košice - Nad jazerom,Sputniková,smer Dneperská (len pre ŠpTP),21.2992477416992,48.6781349182128
+654,404,2,False,False,True,Košice - Nad jazerom,Sputniková,smer Talinská (len pre ŠpTP),21.29927444458,48.6780433654785
+655,405,1,False,False,True,Košice - Vyšné Opátske,Školy pre telesne postihnutých,smer Tepláreň (len pre ŠpTP),21.2816791534423,48.7059707641601
+656,405,2,False,False,True,Košice - Vyšné Opátske,Školy pre telesne postihnutých,konečná (len pre ŠpTP),21.2816791534423,48.7059707641601
+657,411,1,False,False,True,Košice - Šaca,Ludvíkov Dvor,v dedine (školská zachádzka Umakov),21.1981296539306,48.6422615051269
+658,412,1,False,False,True,Košice - Západ,ZŠ Bernolákova,(školská zachádzka),21.2413082122802,48.7105865478515
+659,412,2,False,False,True,Košice - Západ,ZŠ Bernolákova,(školská zachádzka),21.2413082122802,48.7105865478515
+660,413,1,False,False,True,Košice - Luník IX,Základná škola,východzia (šk. spoj),21.2226982116699,48.6974067687988
+661,413,2,False,False,True,Košice - Luník IX,Základná škola,konečná (šk. spoj),21.222749710083,48.6973609924316
+662,414,1,False,False,True,Košice - Juh,ZŠ Požiarnická, (školská zachádzka),21.2642078399658,48.7129020690917
+663,415,1,False,False,True,Košice - Vyšné Opátske,Opatovská cesta 101,smer ŠpTP,21.2827091217041,48.7044105529785
+664,415,2,False,False,True,Košice - Vyšné Opátske,Opatovská cesta 101,konečná (len pre ŠpTP),21.2826614379882,48.704360961914
+665,500,1,False,False,True,Košice - Šaca,Hutníky,smer VA,21.2073364257812,48.6096115112304
+666,500,2,False,False,True,Košice - Šaca,Hutníky,smer od VA,21.2073364257812,48.6096115112304
+667,900,1,False,True,True,Košice - Džungľa,Garáž Trolejbusová,odchod,21.26953125,48.7390365600585
+668,900,2,False,True,True,Košice - Džungľa,Garáž Trolejbusová,príchod,21.2697677612304,48.7391052246093
+669,901,1,False,True,True,Košice - Džungľa,Garáž Hornádska,odchod,21.2711791992187,48.7364540100097
+670,901,2,False,True,True,Košice - Džungľa,Garáž Hornádska,príchod,21.2700843811035,48.7388801574707
+671,902,1,True,False,False,Košice - Západ,Vozovňa Bardejovská,odchod,21.2371520996093,48.7037925720214
+672,902,2,True,False,False,Košice - Západ,Vozovňa Bardejovská,príchod,21.2373695373535,48.7037506103515
+673,902,3,False,False,True,Košice - Západ,Vozovňa Bardejovská,odchod,21.2368202209472,48.7046203613281
+674,902,4,False,False,True,Košice - Západ,Vozovňa Bardejovská,príchod,21.2368202209472,48.7046203613281
+675,903,1,True,False,False,Košice - Západ,Vozovňa Moldavská,odchod,21.2395248413085,48.702823638916
+676,903,2,True,False,False,Košice - Západ,Vozovňa Moldavská,príchod,21.2396850585937,48.7029800415039
+677,905,1,False,False,True,Košice - Šaca,Garáž Šaca,odchod,21.1706085205078,48.6302413940429
+678,905,2,False,False,True,Košice - Šaca,Garáž Šaca,príchod,21.1705474853515,48.6302185058593
+679,83,4,False,False,True,Košice - Košická Nová Ves,Lingov,smer od DH - MiÚ na Sečovskú,21.2924995422363,48.7323989868164
+680,83,5,False,False,True,Košice - Košická Nová Ves,Lingov,konečná,21.2910709381103,48.7321014404296
+681,83,6,False,True,True,Košice - Košická Nová Ves,Lingov,konečná,21.2919101715087,48.7322311401367
+682,83,7,False,True,True,Košice - Dargovských hrdinov,Lingov,smer Postupimská (l. 18),21.2911491394042,48.7323112487792
+683,83,8,False,True,True,Košice - Košická Nová Ves,Lingov otočka,,21.2919635772705,48.7324752807617
+684,84,1,False,False,True,Košice - Šaca,Ludvíkov Dvor,"smer Poľov, rázcestie",21.201280593872,48.6422691345214
+685,84,2,False,False,True,Košice - Šaca,Ludvíkov Dvor,smer Valcovne USS,21.2006492614746,48.6415405273437
+686,84,3,False,False,True,Košice - Šaca,Ludvíkov Dvor,smer EZ Elektrosystémy,21.2022991180419,48.6407318115234
+687,84,4,True,False,False,Košice - Šaca,Ludvíkov Dvor,"smer Poľov, rázcestie",21.2020797729492,48.6434707641601
+688,84,5,True,False,False,Košice - Šaca,Ludvíkov Dvor,smer Valcovne USS,21.2019805908203,48.6429710388183
+689,85,1,False,False,True,Košice - Sídlisko Ťahanovce,Madridská,smer Aténska (l. 10),21.2601509094238,48.7597694396972
+690,85,2,False,False,True,Košice - Sídlisko Ťahanovce,Madridská,smer Aténska (l. RA),21.2598209381103,48.7595787048339
+691,85,3,False,False,True,Košice - Sídlisko Ťahanovce,Madridská,konečná,21.2604999542236,48.7594718933105
+692,86,1,False,False,True,Košice - Ťahanovce,Magnezitárska,smer Želiarska,21.2647800445556,48.7493515014648
+693,86,2,False,False,True,Košice - Ťahanovce,Magnezitárska,smer Dopravná,21.2639598846435,48.7496604919433
+694,87,1,False,False,True,Košice - Sever,Májová,smer Anička,21.2483901977539,48.7448196411132
+695,87,2,False,False,True,Košice - Sever,Májová,smer Vodárenská,21.2483100891113,48.744831085205
+696,88,1,False,False,True,Košice - Juh,Malá stanica,smer Rušňové depo,21.2655906677246,48.7089614868164
+697,88,2,False,False,True,Košice - Juh,Malá stanica,smer Ryba,21.2654590606689,48.7085189819335
+698,89,1,False,True,True,Košice - Myslava,Maša,"smer Myslava, Pri škole",21.1891593933105,48.717041015625
+699,89,2,False,True,True,Košice - Myslava,Maša,konečná,21.1894302368164,48.7170791625976
+700,90,1,False,False,True,Košice - Košická Nová Ves,Detský domov Satelit,smer konečná,21.2990093231201,48.731201171875
+701,91,1,False,False,True,Košice - Sever,Mengusovská,smer Atletická,21.238899230957,48.7483901977539
+702,91,2,False,False,True,Košice - Sever,Mengusovská,smer Štrbská,21.2388801574707,48.7487487792968
+703,92,1,False,True,True,Košice - Západ,Magistrát mesta Košice,smer Ružová,21.2368106842041,48.713581085205
+704,92,2,False,True,True,Košice - Západ,Magistrát mesta Košice,smer Hodonínska,21.234390258789,48.7134590148925
+705,92,3,False,False,True,Košice - Západ,Magistrát mesta Košice,smer Bernolákova,21.2355194091796,48.712890625
+706,92,4,False,False,True,Košice - Západ,Magistrát mesta Košice,smer Kino Družba  (výluková),21.2354793548583,48.7129898071289
+707,92,5,True,False,False,Košice - Západ,Magistrát mesta Košice,smer Bernolákova,21.2356395721435,48.7130393981933
+708,92,6,True,False,False,Košice - Západ,Magistrát mesta Košice,smer Kino Družba,21.2353591918945,48.7139892578125
+709,93,1,False,False,True,Košice - Kavečany,"Kavečany, MiÚ","smer od Kavečany, cintorín",21.2082996368408,48.7764816284179
+710,93,2,False,False,True,Košice - Kavečany,"Kavečany, MiÚ",smer od ZOO,21.2078304290771,48.7760200500488
+711,94,1,False,False,True,Košice - Sídlisko Ťahanovce,Bruselská,smer Berlínska,21.2665100097656,48.756290435791
+712,94,2,False,False,True,Košice - Sídlisko Ťahanovce,Bruselská,Aténska,21.2649993896484,48.7561798095703
+713,94,3,False,False,True,Košice - Sídlisko Ťahanovce,Bruselská,smer Budapeštianská,21.2656192779541,48.75532913208
+714,94,4,False,False,True,Košice - Sídlisko Ťahanovce,Bruselská,konečná,21.266939163208,48.7566184997558
+715,95,1,False,False,True,Košice - Dargovských hrdinov,"Darg. hrdinov, MiÚ",smer od Sečovskej na Lingov,21.2904605865478,48.7302284240722
+716,95,2,False,False,True,Košice - Dargovských hrdinov,"Darg. hrdinov, MiÚ",smer Sečovská,21.2899703979492,48.7301712036132
+717,95,3,False,True,True,Košice - Dargovských hrdinov,"Darg. hrdinov, MiÚ",smer od Postupimskej na Lingov,21.2894706726074,48.7296104431152
+718,95,4,False,True,True,Košice - Dargovských hrdinov,"Darg. hrdinov, MiÚ",smer Postupimská,21.2901306152343,48.7305603027343
+719,96,1,False,True,True,Košice - Sídlisko KVP,"Miestny úrad, KVP",smer Poliklinika KVP,21.2142696380615,48.7168807983398
+720,96,2,False,True,True,Košice - Sídlisko KVP,"Miestny úrad, KVP",smer od Poliklinika KVP,21.2144508361816,48.7170181274414
+721,97,1,False,False,True,Košice - Pereš,Revúcka,smer Haburská,21.2117900848388,48.6889190673828
+722,97,2,False,False,True,Košice - Pereš,Revúcka,smer Perešská,21.211799621582,48.6888618469238
+723,98,1,False,False,True,Košice - Lorinčík,"Lorinčík, MiÚ",smer Lorinčík,21.1953392028808,48.6872787475585
+724,98,2,False,False,True,Košice - Lorinčík,"Lorinčík, MiÚ",smer od Lorinčíka,21.1951808929443,48.6876792907714
+725,99,1,False,False,True,Košice - Poľov,Poľovská,smer Poľov,21.1924591064453,48.6656494140625
+726,99,2,False,False,True,Košice - Poľov,Poľovská,smer Kovaľská,21.1926498413085,48.6654586791992
+727,100,1,False,False,True,Košice - Západ,Michalovská,smer Trebišovská,21.2341709136962,48.705638885498
+728,100,2,False,False,True,Košice - Západ,Michalovská,smer DPMK,21.2340908050537,48.7050590515136
+729,101,1,False,False,True,Košice - Západ,Luník VIII,smer Luník IX,21.2314395904541,48.6972999572753
+730,101,2,False,False,True,Košice - Západ,Luník VIII,smer Stodolova,21.2316093444824,48.6972503662109
+731,101,3,False,False,True,Košice - Západ,Luník VIII,konečná,21.2314395904541,48.6972999572753
+732,102,1,False,False,True,Košice - Nad jazerom,Mlyn,smer Napájadlá,21.2870693206787,48.6810493469238
+733,102,2,False,False,True,Košice - Nad jazerom,Mlyn,konečná,21.2866897583007,48.6812515258789
+734,103,1,False,True,True,Košice - Staré Mesto,Mlynská bašta,smer Národné námestie,21.2567195892333,48.7283287048339
+735,103,2,False,True,True,Košice - Staré Mesto,Mlynská bašta,smer Vodná,21.2573890686035,48.7270812988281
+736,103,3,False,True,True,Košice - Staré Mesto,Mlynská bašta,konečná,21.2570896148681,48.7280883789062
+737,103,4,False,True,True,Košice - Staré Mesto,Mlynská bašta,smer Vodná - Gorkého ul.,21.2568702697753,48.7280883789062
+738,104,1,False,False,True,Košice - Dargovských hrdinov,Moňok,smer Zelený dvor,21.2730293273925,48.7455711364746
+739,104,2,False,False,True,Košice - Sídlisko Ťahanovce,Moňok,smer Pod Furčou,21.2727794647216,48.7455711364746
+740,105,1,False,True,True,Košice - Sídlisko KVP,Cottbuská,smer Diamantová,21.2186794281005,48.71236038208
+741,105,2,False,True,True,Košice - Sídlisko KVP,Cottbuská,smer Moskovská,21.2173690795898,48.7123908996582
+742,106,1,False,False,True,Košice - Krásna ,Pri Hornáde,smer Golianova,21.3137397766113,48.6697387695312
+743,106,2,False,False,True,Košice - Krásna ,Pri Hornáde,smer Lackova,21.3145294189453,48.6694984436035
+744,107,1,False,False,True,Košice - Krásna ,"Motorest, Krásna",smer Lackova,21.3274497985839,48.6663513183593
+745,107,2,False,False,True,Košice - Krásna ,"Motorest, Krásna",smer Minska (na Pollova ul.),21.32689,48.66586
+746,107,3,False,False,True,Košice - Krásna ,"Motorest, Krásna",smer Nižná Hutka,21.3277397155761,48.666160583496
+747,108,1,False,False,True,Košice - Myslava,Myslavská 87,smer Myslava - kostol,21.2129592895507,48.7051086425781
+748,108,2,False,False,True,Košice - Myslava,Myslavská 87,smer Kolibár,21.2137203216552,48.7046890258789
+749,109,1,True,False,False,Košice - Staré Mesto,Nám. Maratónu mieru,smer od Radnica Starého mesta,21.2536392211914,48.7268486022949
+750,109,2,True,False,False,Košice - Staré Mesto,Nám. Maratónu mieru,smer Radnica Starého mesta,21.2534503936767,48.726821899414
+751,109,3,False,False,True,Košice - Staré Mesto,Nám. Maratónu mieru,smer Národné nám.,21.2561302185058,48.7267913818359
+752,109,4,False,False,True,Košice - Staré Mesto,Nám. Maratónu mieru,smer Žel. nemocnica,21.2558193206787,48.7266082763671
+753,109,5,False,False,True,Košice - Staré Mesto,Nám. Maratónu mieru,smer Radnica Starého mesta,21.2556896209716,48.7274017333984
+754,109,6,True,False,True,Košice - Staré Mesto,Nám. Maratónu mieru,smer Radnica Starého mesta - výluková,21.2532234191894,48.7276191711425
+755,109,7,True,False,True,Košice - Staré Mesto,Nám. Maratónu mieru,smer Pol.sever- výluková (Hlavná ul.),21.2536392211914,48.7268486022949
+756,109,8,True,False,False,Košice - Staré Mesto,Nám. Maratónu mieru,smer Radnica Starého mesta(Železničná  u,21.2533454895019,48.7279357910156
+757,110,1,False,False,True,Košice - Košická Nová Ves,Košická Nová Ves,"smer K. N. Ves, cintorín",21.3014507293701,48.728271484375
+758,110,2,False,False,True,Košice - Košická Nová Ves,Košická Nová Ves,konečná,21.3014507293701,48.728271484375
+759,111,1,True,False,False,Košice - Juh,Rozvojová,"smer Železníky, križovatka",21.2535705566406,48.6942596435546
+760,111,2,True,False,False,Košice - Juh,Rozvojová,smer Autocamping,21.2535190582275,48.6948013305664
+761,111,3,False,False,True,Košice - Juh,Rozvojová,"smer Železníky, križovatka(výluková)",21.2535705566406,48.6942596435546
+762,111,4,False,False,True,Košice - Juh,Rozvojová,smer Autocamping(výluková),21.2535190582275,48.6948013305664
+763,112,1,False,False,True,Košice - Sídlisko Ťahanovce,Aténska,smer  Bruselská,21.2622203826904,48.7577896118164
+764,112,2,False,False,True,Košice - Sídlisko Ťahanovce,Aténska,smer Madridská,21.2621307373046,48.7583084106445
+765,113,1,True,False,False,Košice - Staré Mesto,Nám. osloboditeľov,smer od Astoria,21.2593402862548,48.7168006896972
+766,113,2,True,False,False,Košice - Staré Mesto,Nám. osloboditeľov,smer od Senný trh,21.2588005065917,48.7166290283203
+767,113,3,True,False,True,Košice - Juh,Nám. osloboditeľov,smer Astória,21.2609996795654,48.7160301208496
+768,113,4,False,True,True,Košice - Juh,Nám. osloboditeľov,parčík 1 (smer Jakabov palác),21.2616996765136,48.7165718078613
+769,113,5,False,True,True,Košice - Staré Mesto,Nám. osloboditeľov,Slovan 1 (smer Ružová)konečná,21.2611999511718,48.717430114746
+770,113,6,False,False,True,Košice - Juh,Nám. osloboditeľov,parčík 2 (smer Prešovská),21.262279510498,48.7167892456054
+771,113,7,False,True,True,Košice - Staré Mesto,Nám. osloboditeľov,Slovan 2 (smer Slovenská televízia),21.2606105804443,48.7172698974609
+772,113,10,False,False,True,Košice - Staré Mesto,Nám. osloboditeľov,Bottova 2 (smer Senný trh),21.2621994018554,48.718448638916
+773,113,11,False,True,True,Košice - Staré Mesto,Nám. osloboditeľov,Bottova 3 (smer Jakabov palác)),21.2623291015625,48.7182884216308
+774,113,12,False,True,True,Košice - Staré Mesto,Nám. osloboditeľov,Bottova 1 (konečná),21.2623901367187,48.7183418273925
+775,113,13,True,False,False,Košice - Staré Mesto,Nám. osloboditeľov,smer Senný trh,21.2611999511718,48.7173500061035
+776,113,15,False,False,True,Košice - Staré Mesto,Nám. osloboditeľov,smer Krajský súd (výluková),21.2611999511718,48.717430114746
+777,113,17,True,False,True,Košice - Staré Mesto,Nám. osloboditeľov,medzi pomníkmi,21.2579898834228,48.7208404541015
+778,113,18,False,False,True,Košice - Juh,Nám. osloboditeľov,Štúrova (Dargov),21.2590999603271,48.7167282104492
+779,114,1,False,False,True,Košice - Šaca,"Šaca, námestie",smer Kvetná,21.1722393035888,48.6339492797851
+780,114,2,False,False,True,Košice - Šaca,"Šaca, námestie",smer Valcovne USS,21.1721305847167,48.6334381103515
+781,114,3,False,False,True,Košice - Šaca,"Šaca, námestie",smer VA USS,21.1720905303955,48.6335983276367
+782,115,1,False,True,True,Košice - Staré Mesto,Národné námestie,smer Tomášikova,21.2542991638183,48.7315483093261
+783,115,2,False,True,True,Košice - Staré Mesto,Národné námestie,smer od Tomášikova,21.254150390625,48.7314414978027
+784,115,3,False,False,True,Košice - Staré Mesto,Národné námestie,smer Poliklinika sever,21.2542991638183,48.7315483093261
+785,116,1,False,False,True,Košice - Západ,"Považská, Nová nemocnica",smer Hlavná pošta,21.2397594451904,48.7206916809082
+786,116,2,False,False,True,Košice - Západ,"Považská, Nová nemocnica",smer Nová nemocnica,21.2381896972656,48.7212409973144
+787,117,1,False,False,True,Košice - Šaca,Nemocnica Šaca,smer Kvetná,21.1707191467285,48.6425285339355
+788,117,2,False,False,True,Košice - Šaca,Nemocnica Šaca,konečná,21.1706295013427,48.6423187255859
+789,119,1,False,False,True,Košice - Sever,Obchodná akadémia,smer Botanická záhrada,21.2391395568847,48.7312812805175

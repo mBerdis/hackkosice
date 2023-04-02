@@ -10,12 +10,13 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.uix.label import Label
 from kivy.uix.widget import Widget
+from kivy.uix.checkbox import CheckBox
 
 from kivy_garden.mapview import MapView, MapMarker, MapMarkerPopup
 from kivy.app import App
 from kivy.lang import Builder
 
-class SchoolMarker(MapMarker):
+class SchoolMarker(MapMarkerPopup):
     color = (0, 0, 1, 0.5)
 
 class Markers(MapMarker):
@@ -33,8 +34,23 @@ class Markers(MapMarker):
 
             for marker in data:
                 map_marker = MapMarkerPopup(lat=marker[19], lon=marker[20], popup_size=(100, 50))
-                map_marker.add_widget(Label(text=marker[2], color=(1,0,1,1)))
-                markers.append(map_marker)
+                map_marker.add_widget(Label(text="Skola: " + marker[2], color=(1,0,1,1)))
+                
+                
+                # Define the radius of the Earth in kilometers
+                R = 6371.01
+
+                # Convert the latitude and longitude coordinates to radians
+                lat1 = math.radians(map_marker.lat)
+                lon1 = math.radians(map_marker.lon)
+
+                # Calculate the distance from the center point to a point 1 kilometer to the north, south, east, and west
+                d = 2  # 2x0.5 kilometer
+                lat_north = math.degrees(math.asin(math.sin(lat1) * math.cos(d/R) + math.cos(lat1) * math.sin(d/R) * math.cos(0)))
+                lon_north = math.degrees(lon1 + math.atan2(math.sin(0) * math.sin(d/R) * math.cos(lat1), math.cos(d/R) - math.sin(lat1) * math.sin(lat_north)))
+
+                north_point = [lat_north, lon_north]
+                markers.append([map_marker, north_point])
 
             return markers
 
@@ -52,6 +68,8 @@ class Mapp(App):
         max_zoom = 20
         min_zoom = 11
 
+        show_schools = None
+
         def on_zoom(mapview, zoom):
             if zoom > max_zoom:
                 mapview.zoom = max_zoom
@@ -59,61 +77,91 @@ class Mapp(App):
                 mapview.zoom = min_zoom
            
         mapview.bind(zoom=on_zoom)
-        zoom = 11
-
 
         for marker in markers.Markers:
-            mapview.add_marker(marker)
+            mapview.add_marker(marker[0])
 
         def update(mapview, zoom):
+            if show_schools is False:
+                pass
+
             for child in mapview.canvas.children:
                 if type(child) is Ellipse:
                     mapview.canvas.remove(child)
 
-            # Define the radius of the Earth in kilometers
-            R = 6371.01
-
             for marker in markers.Markers:
-                # Convert the latitude and longitude coordinates to radians
-                lat1 = math.radians(marker.lat)
-                lon1 = math.radians(marker.lon)
-
-                # Calculate the distance from the center point to a point 1 kilometer to the north, south, east, and west
-                d = 2  # 2x0.5 kilometer
-                lat_north = math.degrees(math.asin(math.sin(lat1) * math.cos(d/R) + math.cos(lat1) * math.sin(d/R) * math.cos(0)))
-                lon_north = math.degrees(lon1 + math.atan2(math.sin(0) * math.sin(d/R) * math.cos(lat1), math.cos(d/R) - math.sin(lat1) * math.sin(lat_north)))
-
-                tmp_marker = MapMarker(lat = lat_north, lon = lon_north)
+                tmp_marker = MapMarker(lat = marker[1][0], lon = marker[1][1])
                 mapview.add_marker(tmp_marker)
-                radius = tmp_marker.y - marker.y
+                radius = tmp_marker.y - marker[0].y
                 mapview.remove_marker(tmp_marker)
 
                 with mapview.canvas:
                     Color(0,1,0,0.08)  # line color
-                    circle = Ellipse(pos = (marker.center_x - radius/2, marker.center_y - radius/2), size = (radius, radius))
+                    circle = Ellipse(pos = (marker[0].center_x - radius/2, marker[0].center_y - radius/2), size = (radius, radius))
                     mapview.canvas.add(circle)
 
         #mapview.bind(zoom = update)
         mapview.bind(lon=update)
         visible_markers = True
 
-        def toggle_markers_visibility(button):
-            nonlocal visible_markers
-            if visible_markers:
+        cbox_skoly = CheckBox(active=True)
+        labels = Label(text="Stredne skoly")
+
+        def on_checkbox_skoly_active(checkbox, value):
+            if value is False:
+                self.show_schools = False
                 for marker in markers.Markers:
-                    mapview.remove_marker(marker)
-                button.text = "Show schools"
+                    mapview.remove_marker(marker[0])
+                for child in mapview.canvas.children:
+                    if type(child) is Ellipse:
+                        mapview.canvas.remove(child)
             else:
+                show_schools = True
                 for marker in markers.Markers:
+                    mapview.add_marker(marker[0])
+
+        cbox_skoly.bind(active=on_checkbox_skoly_active)
+
+        ###
+
+        file_path = "zastavky_mhd.csv"
+        with open(file_path, newline='', encoding='utf-8') as csvfile:
+            csvreader = csv.reader(csvfile)
+            headers = next(csvreader)
+            dota = list(csvreader)
+
+        mhd_markers = list()
+        mhdlst = list()
+
+        for marker in dota:
+            if marker[7] not in mhdlst:
+                map_marker = SchoolMarker(lat=marker[10], lon=marker[9], popup_size=(100, 50))
+                map_marker.add_widget(Label(text="Zastavka: "+marker[7], color=(1, 0, 1, 1)))
+                mhd_markers.append(map_marker)
+                mhdlst.append(marker[7])
+                mapview.add_marker(map_marker)
+
+        cbox_mhd = CheckBox(active=True)
+        labelm = Label(text="zastavky MHD")
+
+        def on_checkbox_mhd_active(checkbox, value):
+            if value is False:
+                for marker in mhd_markers:
+                    mapview.remove_marker(marker)
+            else:
+                for marker in mhd_markers:
                     mapview.add_marker(marker)
-                button.text = "Hide schools"
-            visible_markers = not visible_markers
 
-        hide_markers_button = Button(text="Hide markers", size_hint=(0.5, 0.5))
-        hide_markers_button.bind(on_press=toggle_markers_visibility)
+        cbox_mhd.bind(active=on_checkbox_mhd_active)
 
+        box = BoxLayout(pos=(300, 350), size_hint=(.25, .18))
+
+        box.add_widget(cbox_mhd)
+        box.add_widget(labelm)
+        box.add_widget(cbox_skoly)
+        box.add_widget(labels)
+        layout.add_widget(box)
         layout.add_widget(mapview)
-        #layout.add_widget(hide_markers_button)
 
         return layout
 
