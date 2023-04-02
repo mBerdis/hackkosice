@@ -98,7 +98,17 @@ class Mapp(App):
                 with mapview.canvas:
                     Color(0,1,0,0.08)  # line color
                     circle = Ellipse(pos = (marker[0].center_x - radius/2, marker[0].center_y - radius/2), size = (radius, radius))
-                    mapview.canvas.add(circle)
+                    west, south, east, north=mapview.get_bbox()
+                    west, south = mapview.get_window_xy_from(west, south, mapview.zoom)
+                    east, north = mapview.get_window_xy_from(east, north, mapview.zoom)
+                    
+                    if (west < marker[0].center_x - radius/2 and marker[0].center_x- radius/2 < east and south < marker[0].center_y- radius/2 and  marker[0].center_y- radius/2 < north and west < marker[0].center_x + radius/2 and marker[0].center_x+ radius/2 < east and south < marker[0].center_y+ radius/2 and  marker[0].center_y+ radius/2 < north):
+                        mapview.canvas.add(circle)
+                        #print(str(west) +" < "+ str(marker[0].center_x + radius/2) +" and "+ str(marker[0].center_x- radius/2) +" < "+ str(east) +" and "+ str(south) +" < "+ str(marker[0].center_y- radius/2) +" and "+  str(marker[0].center_y+ radius/2) +" < "+ str(north))
+
+                    else:
+                        mapview.canvas.remove(circle)
+
 
         #mapview.bind(zoom = update)
         mapview.bind(lon=update)
