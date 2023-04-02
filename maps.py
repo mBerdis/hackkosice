@@ -81,17 +81,20 @@ class Mapp(App):
         mapview.bind(zoom=on_zoom)
 
         markers = Markers("stredne_skoly.csv", 19, 20, "", "Skola")
+        objects = list()
 
         for marker in markers.Markers:
             mapview.add_marker(marker[0])
 
         def update(mapview, zoom):
-            if show_schools is False:
-                pass
+            # if show_schools is False:
+            #     pass
 
             for child in mapview.canvas.children:
                 if type(child) is Ellipse:
                     mapview.canvas.remove(child)
+                    if child in objects:
+                        objects.remove(child)
 
             for marker in markers.Markers:
                 tmp_marker = MapMarker(lat = marker[1][0], lon = marker[1][1])
@@ -100,7 +103,7 @@ class Mapp(App):
                 mapview.remove_marker(tmp_marker)
 
                 with mapview.canvas:
-                    Color(0,1,0,0.08)  # line color
+                    Color(0.996, 0.735, 0.257, 0.1)  # line color
                     circle = Ellipse(pos = (marker[0].center_x - radius/2, marker[0].center_y - radius/2), size = (radius, radius))
                     west, south, east, north=mapview.get_bbox()
                     west, south = mapview.get_window_xy_from(west, south, mapview.zoom)
@@ -108,10 +111,13 @@ class Mapp(App):
 
                     if (west < marker[0].center_x - radius/2 and marker[0].center_x- radius/2 < east and south < marker[0].center_y- radius/2 and  marker[0].center_y- radius/2 < north and west < marker[0].center_x + radius/2 and marker[0].center_x+ radius/2 < east and south < marker[0].center_y+ radius/2 and  marker[0].center_y+ radius/2 < north):
                         mapview.canvas.add(circle)
+                        objects.append(circle)
                         #print(str(west) +" < "+ str(marker[0].center_x + radius/2) +" and "+ str(marker[0].center_x- radius/2) +" < "+ str(east) +" and "+ str(south) +" < "+ str(marker[0].center_y- radius/2) +" and "+  str(marker[0].center_y+ radius/2) +" < "+ str(north))
 
                     else:
                         mapview.canvas.remove(circle)
+                        if circle in objects:
+                            objects.remove(circle)
 
         mapview.bind(lon=update)
         visible_markers = True
@@ -124,6 +130,8 @@ class Mapp(App):
                 self.show_schools = False
                 for marker in markers.Markers:
                     mapview.remove_marker(marker[0])
+                for obj in objects:
+                    mapview.canvas.remove(obj)
                 for child in mapview.canvas.children:
                     if type(child) is Ellipse:
                         mapview.canvas.remove(child)
@@ -141,11 +149,14 @@ class Mapp(App):
 
         def on_checkbox_banky_active(checkbox, value):
             if value is False:
-                self.mapview = MapView(zoom=11, lat=48.7145, lon=21.2503)
+                for child in mapview.canvas.children:
+                    if type(child) is Ellipse:
+                        mapview.canvas.remove(child)
             else:
                 markers = Markers("POIs.csv", 4, 5, "cafe", "Kafe")
                 for marker in markers.Markers:
                     mapview.add_marker(marker[0])
+                update(mapview, 1)
 
         cbox_banky.bind(active=on_checkbox_banky_active)
 
