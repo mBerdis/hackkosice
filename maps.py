@@ -145,10 +145,15 @@ class Mapp(App):
         # BANKY
 
         cbox_banky = CheckBox(active=False)
-        labelBank = Label(text="Banky")
+        labelBank = Label(text="Kafe")
 
         def on_checkbox_banky_active(checkbox, value):
             if value is False:
+                self.show_schools = False
+                for marker in markers.Markers:
+                    mapview.remove_marker(marker[0])
+                for obj in objects:
+                    mapview.canvas.remove(obj)
                 for child in mapview.canvas.children:
                     if type(child) is Ellipse:
                         mapview.canvas.remove(child)
@@ -192,7 +197,7 @@ class Mapp(App):
 
         cbox_mhd.bind(active=on_checkbox_mhd_active)
 
-        box = BoxLayout(pos=(300, 350), size_hint=(.25, .18))
+        box = BoxLayout(pos=(300, 350), size_hint=(.5, .18))
 
         box.add_widget(cbox_mhd)
         box.add_widget(labelm)
